@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.2.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant':'', 'session':'001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1440, 900]" valType="list"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="color"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="Management" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="mgBlink" updates="None" val="MIDDLE_BUTTON" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="background">
+      <TextComponent name="text1">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text1" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$Background1" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="background2">
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$Background2" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="question">
+      <TextComponent name="text_question">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_question" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$Background3" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="1" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="allowedKeys" updates="constant" val="'f','j'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_A">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_A" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.5, -0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$A" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_B">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_B" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.5, -0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$B" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_f">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="text_f" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.5,-0.3)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="press f" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_j">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="text_j" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.5,-0.3)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="press j" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="feedback">
+      <TextComponent name="text_3">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$Feedback" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="final">
+      <TextComponent name="text_4">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_4" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="routine_1"/>
+    <Routine name="fix">
+      <PolygonComponent name="fixation">
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="white" valType="color"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="white" valType="color"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="num"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="fixation" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="None" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="vertices" updates="constant" val="" valType="list"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="instru">
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_5">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_5" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press ‘space’ to continue" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="y_1">
+      <TextComponent name="text_2">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="1. 您对该业绩评价结果的满意度 &amp;#10;" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_yfeedback">
+        <Param name="allowedKeys" updates="constant" val="'0','1','2','3','4','5','6','7'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_yfeedback" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_6">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.06" valType="num"/>
+        <Param name="name" updates="None" val="text_6" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="1   2   3   4   5   6   7" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_7">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.025" valType="num"/>
+        <Param name="name" updates="None" val="text_7" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.3)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="非常不满意  不满意  有点不满意  中立  有点满意  满意  非常满意" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="y_2">
+      <TextComponent name="text_8">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_8" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="2. 您认为该业绩评价结果主要归因于[单选题]" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_9">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_9" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.3)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="○内部因素（个人能力或努力等）请按f&amp;#10;&amp;#10;○外部因素（环境或运气等）请按j" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="allowedKeys" updates="constant" val="'f','j'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="y_3">
+      <TextComponent name="text_10">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_10" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="3.您对未来进一步提升此项业绩评价的意愿程度" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_11">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="KAi" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.06" valType="num"/>
+        <Param name="name" updates="None" val="text_11" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="1   2   3   4   5   6   7" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_12">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.025" valType="num"/>
+        <Param name="name" updates="None" val="text_12" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.3)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="非常不满意  不满意  有点不满意  中立  有点满意  满意  非常满意" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_4">
+        <Param name="allowedKeys" updates="constant" val="'0','1','2','3','4','5','6','7'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_4" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="y_4">
+      <TextComponent name="text_13">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="KAi" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_13" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="4. 您对未来进一步提升此项业绩评价的信心程度" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_14">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.06" valType="num"/>
+        <Param name="name" updates="None" val="text_14" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="1   2   3   4   5   6   7" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_15">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Kai" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.025" valType="num"/>
+        <Param name="name" updates="None" val="text_15" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.3)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="非常没信心  没信心  有点没信心  中立  有点信息  有信心  非常有信心" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_5">
+        <Param name="allowedKeys" updates="constant" val="'0','1','2','3','4','5','6','7'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_5" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instru"/>
+    <LoopInitiator loopType="TrialHandler" name="trial">
+      <Param name="Selected rows" updates="None" val="0:149" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'合并编号': 201, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.00602622636584205, '场景': 201, 'Background1': '你是一家环保公司的项目经理。', 'Background2': '目标年度环保项目数为10个。', 'Background3': '你可以选择扩大合作伙伴网络或增加研发投入。你会选择？', 'A': '扩大合作伙伴网络', 'B': '增加研发投入', 'Feedback': '你实际完成了15个项目，目标完成率为150%，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.0137958275928595, '场景': 82, 'Background1': '你是一家广告公司的媒介经理。', 'Background2': '目标将广告点击率提升至5%以上。', 'Background3': '你可以选择增加广告投放或优化广告内容。你会选择？', 'A': '增加广告投放', 'B': '优化广告内容', 'Feedback': '你实际提升了3%的广告点击率，评级为差，未达考核要求。'}, {'合并编号': 85, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.0209808815925852, '场景': 85, 'Background1': '你是一家物流公司的运营经理。', 'Background2': '目标提升货物配送速度20%。', 'Background3': '你可以选择优化配送路线或增加配送车辆。你会选择？', 'A': '优化配送路线', 'B': '增加配送车辆', 'Feedback': '你实际提升了30%的货物配送速度，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.022399833337196, '场景': 286, 'Background1': '你是一家制造企业的财务经理。', 'Background2': '目标制造费用节约率为20%。', 'Background3': '你可以选择设备效率提升或能源管理优化。你会选择？', 'A': '设备效率提升', 'B': '能源管理优化', 'Feedback': '你实际达到了10%，预算差异率为-50%，为不利差异，未达考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.0263305658869725, '场景': 106, 'Background1': '你是一家科技公司的IT支持经理。', 'Background2': '目标将IT故障率降低至10%以内。', 'Background3': '你可以选择采用自动化监控系统或增加IT支持人员。你会选择？', 'A': '采用自动化监控系统', 'B': '增加IT支持人员', 'Feedback': '你实际将IT故障率降至15%，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.0304839851039623, '场景': 144, 'Background1': '你是一家医疗设备公司的财务经理。', 'Background2': '目标将设备维修成本占总成本的比例降低至10%以内。', 'Background3': '你可以选择使用更耐用的部件或定期维护计划。你会选择？', 'A': '使用更耐用的部件', 'B': '定期维护计划', 'Feedback': '你实际将设备维修成本比例降至12%，评级为差，未达考核要求。'}, {'合并编号': 55, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.0328249819592369, '场景': 55, 'Background1': '你是一家食品公司的质量管理经理。', 'Background2': '目标将食品不合格率降低至1%以内。', 'Background3': '你可以选择改进生产工艺或加强质量检测。你会选择？', 'A': '改进生产工艺', 'B': '加强质量检测', 'Feedback': '你实际将食品不合格率降至5%，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.0362301911827578, '场景': 8, 'Background1': '你是一家零售企业的财务总监。', 'Background2': '目标将店铺日均营业额提升至10000元以上。', 'Background3': '你可以选择优化商品结构或增加店铺促销活动。你会选择？', 'A': '优化商品结构', 'B': '增加店铺促销活动', 'Feedback': '你实际将日均营业额提升至8000元，评级为差，未达考核要求。'}, {'合并编号': 263, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.037404489881682, '场景': 263, 'Background1': '你是一家生产企业的质量改进经理。', 'Background2': '目标研发创新降低产品废品比率为20%。', 'Background3': '你可以选择质控优化或工艺改进。你会选择？', 'A': '质控优化', 'B': '工艺改进', 'Feedback': '你实际达到了30%，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': 77, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.037658829803526, '场景': 77, 'Background1': '你是一家化妆品公司的市场经理。', 'Background2': '目标提升产品市场占有率10%。', 'Background3': '你可以选择开发新产品或增加市场营销预算。你会选择？', 'A': '开发新产品', 'B': '增加市场营销预算', 'Feedback': '你实际提升了15%的产品市场占有率，评级为优，超出考核要求'}, {'合并编号': 215, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.044742414386671, '场景': 215, 'Background1': '你是一家酒店连锁集团的营销总监。', 'Background2': '目标年度客户回头率为60%。', 'Background3': '你可以选择改善客户服务体验或提供忠诚客户奖励。你会选择？', 'A': '改善客户服务体验', 'B': '提供忠诚客户奖励', 'Feedback': '你实际达到了90%的客户回头率，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.0532881405073886, '场景': 246, 'Background1': '你是一家能源公司的运营经理。', 'Background2': '目标季度能源消耗降低5%。', 'Background3': '你可以选择优化能源管理或引进节能技术。你会选择？', 'A': '优化能源管理', 'B': '引进节能技术', 'Feedback': '你实际降低了2%的能源消耗，预算差异率为-60%，为不利差异，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.0559523500065924, '场景': 254, 'Background1': '你是一家软件开发公司的技术主管。', 'Background2': '目标新软件功能开发周期为4个月。', 'Background3': '你可以选择整体开发或模块化开发。你会选择？', 'A': '整体开发', 'B': '模块化开发', 'Feedback': '你实际在5个月内完成了功能开发，预算差异率为25%，为不利差异，未达考核要求。'}, {'合并编号': 135, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.0575688510663696, '场景': 135, 'Background1': '你是一家旅游公司的财务总监。', 'Background2': '目标将旅游套餐的净利润率提升至15%。', 'Background3': '你可以选择降低运营成本或增加高利润旅游套餐。你会选择？', 'A': '降低运营成本', 'B': '增加高利润旅游套餐', 'Feedback': '你实际将净利润率提升至20%，评级为优，超出考核要求'}, {'合并编号': 99, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.0589411692268973, '场景': 99, 'Background1': '你是一家制造企业的生产部门负责人。', 'Background2': '目标提升生产线效率15%。', 'Background3': '你可以选择优化生产流程或增加生产线工人。你会选择？', 'A': '优化生产流程', 'B': '增加生产线工人', 'Feedback': '你实际提升了20%的生产线效率，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.0599000862726475, '场景': 110, 'Background1': '你是一家科技公司的人力资源经理。', 'Background2': '目标将员工留存率提升至90%以上。', 'Background3': '你可以选择优化员工职业发展路径或增加员工福利。你会选择？', 'A': '优化员工职业发展路径', 'B': '增加员工福利', 'Feedback': '你实际实现了85%的员工留存率，评级为差，未达考核要求。'}, {'合并编号': 165, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.0686958084792074, '场景': 165, 'Background1': '你是一家出版社的编辑部主管。', 'Background2': '目标年度出版新书数量为100本。', 'Background3': '你可以选择提高出版流程效率或增加编辑团队。你会选择？', 'A': '提高出版流程效率', 'B': '增加编辑团队', 'Feedback': '你实际出版了150本新书，目标完成率为150%，超出考核要求。'}, {'合并编号': 163, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.0723220560071025, '场景': 163, 'Background1': '你是一家产品研发公司的财务分析师。', 'Background2': '目标新产品利润贡献率为20%。', 'Background3': '你可以选择优化成本结构或扩大销售规模。你会选择？', 'A': '优化成本结构', 'B': '扩大销售规模', 'Feedback': '你实际达到了30%，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': 147, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.0772025422745358, '场景': 147, 'Background1': '你是一家零售连锁店的财务分析师。', 'Background2': '目标将单店日均销售额提升至5000元以上。', 'Background3': '你可以选择优化商品陈列或增加促销活动。你会选择？', 'A': '优化商品陈列', 'B': '增加促销活动', 'Feedback': '你实际将单店日均销售额提升至6000元，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.158134601391827, '场景': 224, 'Background1': '你是一家科技公司的研发人才主管。', 'Background2': '目标培养研发骨干人才2人。', 'Background3': '你可以选择外部招聘或内部提拔。你会选择？', 'A': '外部招聘', 'B': '内部提拔', 'Feedback': '你实际培养了1人，目标完成率为50%，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.164597252728569, '场景': 90, 'Background1': '你是一家旅游公司的营销经理。', 'Background2': '目标将旅游产品销售额提升至1000万以上。', 'Background3': '你可以选择拓展线下渠道或增加线上营销。你会选择？', 'A': '拓展线下渠道', 'B': '增加线上营销', 'Feedback': '你实际提升了500万的旅游产品销售额，评级为差，未达考核要求。'}, {'合并编号': 245, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.0778924552497688, '场景': 245, 'Background1': '你是一家贸易公司的资金管理主管。', 'Background2': '资金占用率应低于50%。', 'Background3': '你可以选择优化库存或加快周转。你会选择？', 'A': '优化库存', 'B': '加快周转', 'Feedback': '你实际达到了20%，预算差异率为-60%，为有利差异，超出考核要求。'}, {'合并编号': 37, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.0833067817661278, '场景': 37, 'Background1': '你是一家零售连锁企业的内部控制经理。', 'Background2': '目标将店铺盗窃事件控制在2起以内。', 'Background3': '你可以选择提升员工警觉性或加强店铺监控。你会选择？', 'A': '提升员工警觉性', 'B': '加强店铺监控', 'Feedback': '你实际将店铺盗窃事件降至1起，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.0296237969740657, '场景': 292, 'Background1': '你是一家制造企业的市场调研主管。', 'Background2': '市场调查费应低于2万。', 'Background3': '你可以选择委托调查或线上调查。你会选择？', 'A': '委托调查', 'B': '线上调查', 'Feedback': '你实际支出了3万，预算差异率为50%，为不利差异，未达考核要求。'}, {'合并编号': 25, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.0843396096993341, '场景': 25, 'Background1': '你是一家电子制造企业的内部控制经理。', 'Background2': '目标将产品召回次数控制在5次以内。', 'Background3': '你可以选择提升供应链透明度或加强产品测试。你会选择？', 'A': '提升供应链透明度', 'B': '加强产品测试', 'Feedback': '你实际将产品召回次数降至2次，评级为优，超出考核要求'}, {'合并编号': 79, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.0865564249325037, '场景': 79, 'Background1': '你是一家金融公司的信贷经理。', 'Background2': '目标提升贷款审批速度20%。', 'Background3': '你可以选择增加审批人员或引入自动化审批系统。你会选择？', 'A': '增加审批人员', 'B': '引入自动化审批系统', 'Feedback': '你实际提升了30%的贷款审批速度，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.0906849652332646, '场景': 38, 'Background1': '你是一家金融机构的内部控制经理。', 'Background2': '目标将金融风险事件控制在5起以内。', 'Background3': '你可以选择提升风险管理或加强风险评估。你会选择？', 'A': '提升风险管理', 'B': '加强风险评估', 'Feedback': '你实际将金融风险事件降至8起，评级为差，未达考核要求。'}, {'合并编号': 237, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.0961751432424022, '场景': 237, 'Background1': '你是一家零售企业的商品运营经理。', 'Background2': '目标热销商品点击率为40%。', 'Background3': '你可以选择品类优化或爆品策略。你会选择？', 'A': '品类优化', 'B': '爆品策略', 'Feedback': '你实际达到了60%，目标完成率为150%，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.10075214532351, '场景': 128, 'Background1': '你是一家电子产品零售商的采购经理。', 'Background2': '目标将采购成本降低至10%以内。', 'Background3': '你可以选择采用集团采购或直接与制造商合作。你会选择？', 'A': '采用集团采购', 'B': '直接与制造商合作', 'Feedback': '你实际降低了5%的采购成本，评级为差，未达考核要求。'}, {'合并编号': 19, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.111325918714504, '场景': 19, 'Background1': '你是一家旅游公司的财务经理。', 'Background2': '目标将旅游产品的复购率提升至20%以上。', 'Background3': '你可以选择提升旅游体验或增加客户忠诚度计划。你会选择？', 'A': '提升旅游体验', 'B': '增加客户忠诚度计划', 'Feedback': '你实际将复购率提升至25%，评级为优，超出考核要求'}, {'合并编号': 121, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.112387786733679, '场景': 121, 'Background1': '你是一家动画工作室的创意总监。', 'Background2': '目标制作3部新动画短片。', 'Background3': '你可以选择提高现有团队技能或招募新人才。你会选择？', 'A': '提高现有团队技能', 'B': '招募新人才', 'Feedback': '你实际制作了5部新动画短片，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.101296664106695, '场景': 22, 'Background1': '你是一家金融服务公司的投资顾问。', 'Background2': '目标将投资组合的年化收益率提升至8%以上。', 'Background3': '你可以选择优化资产配置或增加高风险投资。你会选择？', 'A': '优化资产配置', 'B': '增加高风险投资', 'Feedback': '你实际将年化收益率提升至6%，评级为差，未达考核要求。'}, {'合并编号': 119, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.122039059559832, '场景': 119, 'Background1': '你是一家保险公司的业务经理。', 'Background2': '目标将新保单数量增加至500份以上。', 'Background3': '你可以选择增加营销力度或提供更多保险产品。你会选择？', 'A': '增加营销力度', 'B': '提供更多保险产品', 'Feedback': '你实际增加了600份新保单，评级为优，超出考核要求'}, {'合并编号': 203, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.122629084680862, '场景': 203, 'Background1': '你是一家机械制造企业的运营经理。', 'Background2': '目标生产效率提高率为20%。', 'Background3': '你可以选择生产设备升级或工艺流程改进。你会选择？', 'A': '生产设备升级', 'B': '工艺流程改进', 'Feedback': '你实际达到了30%，预算差异率为50%，为有利差异，超出考核要求'}, {'合并编号': 1, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.124010984650622, '场景': 1, 'Background1': '你是一家电子商务平台的财务分析师。', 'Background2': '目标将用户平均消费额提升至200元以上。', 'Background3': '你可以选择提升商品质量或增加用户个性化推荐。你会选择？', 'A': '提升商品质量', 'B': '增加用户个性化推荐', 'Feedback': '你实际将用户平均消费额提升至250元，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.127870520726399, '场景': 104, 'Background1': '你是一家IT公司的系统架构师。', 'Background2': '目标将系统稳定性提升至90%以上。', 'Background3': '你可以选择优化系统架构或升级硬件设施。你会选择？', 'A': '优化系统架构', 'B': '升级硬件设施', 'Feedback': '你实际将系统稳定性提升至85%，评级为差，未达考核要求。'}, {'合并编号': 51, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.128654857255227, '场景': 51, 'Background1': '你是一家电子商务平台的财务分析师。', 'Background2': '目标将支付坏账控制在100万元以内。', 'Background3': '你可以选择优化商家信用评估或加强支付风险控制。你会选择？', 'A': '优化商家信用评估', 'B': '加强支付风险控制', 'Feedback': '你实际将坏账控制在50万元内，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.135362518096939, '场景': 192, 'Background1': '你是一家广告公司的创意主管。', 'Background2': '目标创意提案数量为20个。', 'Background3': '你可以选择提高创意效率或增加创意团队。你会选择？', 'A': '提高创意效率', 'B': '增加创意团队', 'Feedback': '你实际提出了10个创意提案，目标完成率为50%，未达考核要求。'}, {'合并编号': 89, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.135868323875073, '场景': 89, 'Background1': '你是一家教育机构的课程顾问。', 'Background2': '目标将课程销售额提升至15万以上。', 'Background3': '你可以选择增加课程宣传或提供课程优惠。你会选择？', 'A': '增加课程宣传', 'B': '提供课程优惠', 'Feedback': '你实际提升了20万的课程销售额，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.138676027704155, '场景': 200, 'Background1': '你是一家化妆品公司的品牌经理。', 'Background2': '目标年度品牌知名度提升20%。', 'Background3': '你可以选择开展公关活动或增加广告投入。你会选择？', 'A': '开展公关活动', 'B': '增加广告投入', 'Feedback': '你实际提升了10%的品牌知名度，目标完成率为50%，未达考核要求。'}, {'合并编号': 29, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.139743006301517, '场景': 29, 'Background1': '你是一家电子商务平台的内部控制经理。', 'Background2': '目标将虚假交易事件控制在5起以内。', 'Background3': '你可以选择提升用户认证标准或加强交易监控。你会选择？', 'A': '提升用户认证标准', 'B': '加强交易监控', 'Feedback': '你实际将虚假交易降至2起，评级为优，超出考核要求'}, {'合并编号': 293, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.141224839026399, '场景': 293, 'Background1': '你是一家制造企业的研发经理。', 'Background2': '目标新产品研发成本降低率为10%。', 'Background3': '你可以选择精简研发流程或削减研发人员。你会选择？', 'A': '精简研发流程', 'B': '削减研发人员', 'Feedback': '你实际达到了15%，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': 197, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.146816687844444, '场景': 197, 'Background1': '你是一家化工企业的安全主管。', 'Background2': '目标生产安全事故发生率低于5%。', 'Background3': '你可以选择作业流程安全检查或设备安全隐患排查。你会选择？', 'A': '作业流程安全检查', 'B': '设备安全隐患排查', 'Feedback': '你实际达到了2%，预算差异率为-60%，为有利差异，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.14767115727901, '场景': 188, 'Background1': '你是一家服务公司的客户经理。', 'Background2': '客户维护费应低于3万。', 'Background3': '你可以选择线下回访或线上服务。你会选择？', 'A': '线下回访', 'B': '线上服务', 'Feedback': '你实际支出了5万，预算差异率为67%，为不利差异，未达考核要求。'}, {'合并编号': 137, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.14920620600214, '场景': 137, 'Background1': '你是一家保险公司的财务总监。', 'Background2': '目标将赔付支出占总保费收入的比例控制在30%以内。', 'Background3': '你可以选择提高保费或优化赔付流程。你会选择？', 'A': '提高保费', 'B': '优化赔付流程', 'Feedback': '你实际将赔付支出比例控制在25%，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.152375799912149, '场景': 122, 'Background1': '你是一家电影制作公司的制片人。', 'Background2': '目标制作5部电影。', 'Background3': '你可以选择优化电影制作流程或增加电影预算。你会选择？', 'A': '优化电影制作流程', 'B': '增加电影预算', 'Feedback': '你实际制作了2部电影，评级为差，未达考核要求。'}, {'合并编号': 183, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.154045687143459, '场景': 183, 'Background1': '你是一家电子配件制造商的生产主管。', 'Background2': '目标月度产量为5000件。', 'Background3': '你可以选择优化生产流程或加班加点。你会选择？', 'A': '优化生产流程', 'B': '加班加点', 'Feedback': '你实际完成了7500件，目标完成率为150%，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.155354179674697, '场景': 194, 'Background1': '你是一家广告公司的媒介经理。', 'Background2': '目标季度广告投放覆盖率为60%。', 'Background3': '你可以选择优化广告投放策略或增加广告预算。你会选择？', 'A': '优化广告投放策略', 'B': '增加广告预算', 'Feedback': '你实际达到了40%的覆盖率，目标完成率为67%，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.164848974769197, '场景': 52, 'Background1': '你是一家能源公司的财务总监。', 'Background2': '目标将税务风险事件控制在5起以内。', 'Background3': '你可以选择优化税务申报流程或加强税务合规培训。你会选择？', 'A': '优化税务申报流程', 'B': '加强税务合规培训', 'Feedback': '你实际将税务风险事件控制在8起，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.1664646362592, '场景': 256, 'Background1': '你是一家商贸公司的会计主管。', 'Background2': '销售费用应低于10万。', 'Background3': '你可以选择自动化流程或优化人员配置。你会选择？', 'A': '自动化流程', 'B': '优化人员配置', 'Feedback': '你实际支出了14万，预算差异率为40%，为不利差异，未达考核要求。'}, {'合并编号': 173, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.170477079980942, '场景': 173, 'Background1': '你是一家大型企业的采购总监。', 'Background2': '目标采购资金节约率为20%。', 'Background3': '你可以选择采购模式创新或供应商战略整合。你会选择？', 'A': '采购模式创新', 'B': '供应商战略整合', 'Feedback': '你实际达到了30%，预算差异率为50%，为有利差异，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.172892926116619, '场景': 162, 'Background1': '你是一家产品开发公司的客户需求经理。', 'Background2': '目标客户需求达成率为60%。', 'Background3': '你可以选择快速迭代开发或需求分析优化。你会选择？', 'A': '快速迭代开发', 'B': '需求分析优化', 'Feedback': '你实际达成率30%，目标完成率为50%，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.175103590814014, '场景': 228, 'Background1': '你是一家快消品公司的市场总监。', 'Background2': '目标年度市场份额增长为5%。', 'Background3': '你可以选择改进产品包装或增加广告预算。你会选择？', 'A': '改进产品包装', 'B': '增加广告预算', 'Feedback': '你实际市场份额增长了2.5%，预算差异率为-50%，为不利差异，未达考核要求。'}, {'合并编号': 291, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.175518076633403, '场景': 291, 'Background1': '你是一家制造企业的市场经理。', 'Background2': '目标销售利润为60万。', 'Background3': '你可以选择扩大销量或提高单价。你会选择？', 'A': '扩大销量', 'B': '提高单价', 'Feedback': '你实际完成了90万，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.181091815682792, '场景': 298, 'Background1': '你是一家装备制造企业的生产主管。', 'Background2': '目标获得生产标兵称号3次。', 'Background3': '你可以选择效率提升评选或质量达标评选。你会选择？', 'A': '效率提升评选', 'B': '质量达标评选', 'Feedback': '你实际获得了1个，目标完成率为33%，未达考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.185116505607098, '场景': 94, 'Background1': '你是一家汽车销售公司的区域经理。', 'Background2': '目标将汽车月销量提升至100辆以上。', 'Background3': '你可以选择提供销售优惠或增加销售点。你会选择？', 'A': '提供销售优惠', 'B': '增加销售点', 'Feedback': '你实际提升了50辆的月销量，评级为差，未达考核要求。'}, {'合并编号': 97, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.189695193400972, '场景': 97, 'Background1': '你是一家软件开发公司的技术部门负责人。', 'Background2': '目标提升软件性能30%。', 'Background3': '你可以选择升级硬件或优化代码。你会选择？', 'A': '升级硬件', 'B': '优化代码', 'Feedback': '你实际提升了40%的软件性能，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.196333549522537, '场景': 208, 'Background1': '你是一家教育机构的活动运营经理。', 'Background2': '目标营销活动平均报名人数为100人/场。', 'Background3': '你可以选择裂变营销或早鸟优惠。你会选择？', 'A': '裂变营销', 'B': '早鸟优惠', 'Feedback': '你实际达到了50人/场，目标完成率为50%，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.204751829459373, '场景': 78, 'Background1': '你是一家科技公司的产品经理。', 'Background2': '目标提升产品用户活跃度30%。', 'Background3': '你可以选择优化产品功能或增加用户激励措施。你会选择？', 'A': '优化产品功能', 'B': '增加用户激励措施', 'Feedback': '你实际提升了20%的产品用户活跃度，评级为差，未达考核要求。'}, {'合并编号': 11, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.209584727653892, '场景': 11, 'Background1': '你是一家IT公司的技术支持经理。', 'Background2': '目标将技术支持响应时间降低至2小时以内。', 'Background3': '你可以选择优化技术支持流程或增加技术支持人员。你会选择？', 'A': '优化技术支持流程', 'B': '增加技术支持人员', 'Feedback': '你实际将响应时间降至1小时内，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.210489583003559, '场景': 258, 'Background1': '你是一家奢侈品公司的VIP客户经理。', 'Background2': '目标新增高价值客户10个。', 'Background3': '你可以选择尊享活动或私人定制。你会选择？', 'A': '尊享活动', 'B': '私人定制', 'Feedback': '你实际新增了5个，目标完成率为50%，未达考核要求。'}, {'合并编号': 175, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.221579422421156, '场景': 175, 'Background1': '你是一家电商公司的店铺运营主管。', 'Background2': '目标新增店铺粉丝数100个/月。', 'Background3': '你可以选择活动引流或内容引流。你会选择？', 'A': '活动引流', 'B': '内容引流', 'Feedback': '你实际新增了150个/月，目标完成率为150%，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.228767193286346, '场景': 124, 'Background1': '你是一家服装品牌的财务总监。', 'Background2': '目标将服装销售的毛利率提升至50%以上。', 'Background3': '你可以选择降低生产成本或提高产品定价。你会选择？', 'A': '降低生产成本', 'B': '提高产品定价', 'Feedback': '你实际将毛利率提升至45%，评级为差，未达考核要求。'}, {'合并编号': 141, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.229703681702514, '场景': 141, 'Background1': '你是一家航空公司的财务总监。', 'Background2': '目标将航班载客率提升至80%以上。', 'Background3': '你可以选择优化航班时刻或增加航班数量。你会选择？', 'A': '优化航班时刻', 'B': '增加航班数量', 'Feedback': '你实际将载客率提升至85%，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.235114709963715, '场景': 116, 'Background1': '你是一家出版社的版权经理。', 'Background2': '目标增加版权收入20%。', 'Background3': '你可以选择优化版权管理或增加版权合作。你会选择？', 'A': '优化版权管理', 'B': '增加版权合作', 'Feedback': '你实际增加了10%的版权收入，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.240092876775758, '场景': 214, 'Background1': '你是一家酒店的总经理。', 'Background2': '目标年度入住率为80%。', 'Background3': '你可以选择增加营销活动或提升客房服务。你会选择？', 'A': '增加营销活动', 'B': '提升客房服务', 'Feedback': '你实际完成了40%的入住率，预算差异率为-50%，为不利差异，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.241106780408176, '场景': 220, 'Background1': '你是一家科技公司的商务拓展主管。', 'Background2': '目标新增销售合同20份。', 'Background3': '你可以选择渠道分销或主动开发。你会选择？', 'A': '渠道分销', 'B': '主动开发', 'Feedback': '你实际新增了8份，目标完成率为40%，未达考核要求。'}, {'合并编号': 229, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.24451858502624, '场景': 229, 'Background1': '你是一家快消品公司的销售总监。', 'Background2': '目标销售收入增长率为20%。', 'Background3': '你可以选择深耕现有客户或开拓新市场。你会选择？', 'A': '深耕现有客户', 'B': '开拓新市场', 'Feedback': '你实际达到了30%，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.244954973231477, '场景': 146, 'Background1': '你是一家科技公司的财务总监。', 'Background2': '目标将专利授权收入提升10%。', 'Background3': '你可以选择优化专利组合或增加专利申请。你会选择？', 'A': '优化专利组合', 'B': '增加专利申请', 'Feedback': '你实际将专利授权收入提升至5%，评级为差，未达考核要求。'}, {'合并编号': 73, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.255082577812119, '场景': 73, 'Background1': '你是一家广告公司的创意总监。', 'Background2': '目标创作5个新广告设计。', 'Background3': '你可以选择外包设计或内部设计团队。你会选择？', 'A': '外包设计', 'B': '内部设计团队', 'Feedback': '你实际创作了8个新广告设计，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.258581523127874, '场景': 182, 'Background1': '你是一家电影院的经理。', 'Background2': '目标月度观众人数为5000人。', 'Background3': '你可以选择提供优惠票价或增加电影放映场次。你会选择？', 'A': '提供优惠票价', 'B': '增加电影放映场次', 'Feedback': '你实际吸引了2500人，目标完成率为50%，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.259679054150605, '场景': 48, 'Background1': '你是一家化工企业的财务经理。', 'Background2': '目标将环保罚款控制在100万元以内。', 'Background3': '你可以选择优化生产流程或加强环保设施投入。你会选择？', 'A': '优化生产流程', 'B': '加强环保设施投入', 'Feedback': '你实际将环保罚款控制在150万元，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.266274332536772, '场景': 72, 'Background1': '你是一家建筑公司的项目总监。', 'Background2': '目标缩短项目完成时间20%。', 'Background3': '你可以选择优化项目计划或引入新型建筑技术。你会选择？', 'A': '优化项目计划', 'B': '引入新型建筑技术', 'Feedback': '你实际缩短了项目完成时间10%，评级为差，未达考核要求。'}, {'合并编号': 41, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.269335451348648, '场景': 41, 'Background1': '你是一家教育机构的内部控制经理。', 'Background2': '目标将学生辍学率降低至5%以内。', 'Background3': '你可以选择提升教学质量或加强学生辅导。你会选择？', 'A': '提升教学质量', 'B': '加强学生辅导', 'Feedback': '你实际将学生辍学率降至3%，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.273220435097598, '场景': 234, 'Background1': '你是一家零售企业的采购主管。', 'Background2': '目标季度采购成本降低率为10%。', 'Background3': '你可以选择议价采购或批量采购。你会选择？', 'A': '议价采购', 'B': '批量采购', 'Feedback': '你实际降低了5%的采购成本，预算差异率为-50%，为不利差异，未达考核要求。'}, {'合并编号': 191, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.2741168338449, '场景': 191, 'Background1': '你是一家工业制造企业的自动化主管。', 'Background2': '目标生产机械化率为60%。', 'Background3': '你可以选择辅助工序自动化或关键工序自动化。你会选择？', 'A': '辅助工序自动化', 'B': '关键工序自动化', 'Feedback': '你实际达到了90%，目标完成率为150%，超出考核要求'}, {'合并编号': 43, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.275605050831822, '场景': 43, 'Background1': '你是一家能源公司的内部控制经理。', 'Background2': '目标将能源消耗超标率降低至10%以内。', 'Background3': '你可以选择提升能源效率或加强能源审计。你会选择？', 'A': '提升能源效率', 'B': '加强能源审计', 'Feedback': '你实际将能源消耗超标率降至5%，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.27671606941282, '场景': 6, 'Background1': '你是一家能源公司的财务经理。', 'Background2': '目标将能源交易的利润率提升至10%以上。', 'Background3': '你可以选择优化交易策略或增加交易量。你会选择？', 'A': '优化交易策略', 'B': '增加交易量', 'Feedback': '你实际将利润率提升至8%，评级为差，未达考核要求。'}, {'合并编号': 167, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.283184853898489, '场景': 167, 'Background1': '你是一家创新企业的产品开发总监。', 'Background2': '目标开发新产品总数量为10项。', 'Background3': '你可以选择合作开发或独立研发。你会选择？', 'A': '合作开发', 'B': '独立研发', 'Feedback': '你实际开发了15项，目标完成率为150%，超出考核要求。'}, {'合并编号': 199, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.285001616396605, '场景': 199, 'Background1': '你是一家化妆品公司的包装设计主管。', 'Background2': '目标新包装设计周期为4个月。', 'Background3': '你可以选择提高设计效率或增加设计人员。你会选择？', 'A': '提高设计效率', 'B': '增加设计人员', 'Feedback': '你实际在3个月内完成了新包装设计，预算差异率为-25%，为有利差异，超出考核要求。'}, {'合并编号': 9, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.281430799735645, '场景': 9, 'Background1': '你是一家旅游公司的财务经理。', 'Background2': '目标将旅游套餐的毛利率提升至30%以上。', 'Background3': '你可以选择降低采购成本或增加高端旅游套餐。你会选择？', 'A': '降低采购成本', 'B': '增加高端旅游套餐', 'Feedback': '你实际将毛利率提升至35%，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.292174821705777, '场景': 156, 'Background1': '你是一家保险公司的客户维护经理。', 'Background2': '目标客户关系平均持续时间为2年。', 'Background3': '你可以选择增值服务或定期回访。你会选择？', 'A': '增值服务', 'B': '定期回访', 'Feedback': '你实际持续了1年，目标完成率为50%，未达考核要求。'}, {'合并编号': 211, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.298178555764866, '场景': 211, 'Background1': '你是一家金融公司的投资主管。', 'Background2': '目标投资回报率达到10%。', 'Background3': '你可以选择调整投资组合或增加投资额。你会选择？', 'A': '调整投资组合', 'B': '增加投资额', 'Feedback': '你实际达到了15%的投资回报率，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': 257, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.298473015637152, '场景': 257, 'Background1': '你是一家商贸企业的人才发展经理。', 'Background2': '目标培养销售骨干5人。', 'Background3': '你可以选择外部引进或内部培养。你会选择？', 'A': '外部引进', 'B': '内部培养', 'Feedback': '你实际培养了8人，目标完成率为160%，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.259551120727198, '场景': 58, 'Background1': '你是一家金融机构的风险管理经理。', 'Background2': '目标将信贷违约率降低至3%以内。', 'Background3': '你可以选择采用风险评估模型或增加信贷审批标准。你会选择？', 'A': '采用风险评估模型', 'B': '增加信贷审批标准', 'Feedback': '你实际将信贷违约率降至4%，评级为差，未达考核要求。'}, {'合并编号': 193, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.299937358049113, '场景': 193, 'Background1': '你是一家广告公司的媒介购买经理。', 'Background2': '目标季度媒介投放效率提升20%。', 'Background3': '你可以选择优化广告算法或增加投放渠道。你会选择？', 'A': '优化广告算法', 'B': '增加投放渠道', 'Feedback': '你实际提升了30%的投放效率，目标完成率为150%，超出考核要求。'}, {'合并编号': 277, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.305409361782535, '场景': 277, 'Background1': '你是一家医疗设备公司的供应链经理。', 'Background2': '目标季度库存准确率95%。', 'Background3': '你可以选择优化库存管理系统或增加库存检查频次。你会选择？', 'A': '优化库存管理系统', 'B': '增加库存检查频次', 'Feedback': '你实际达到了98%的准确率，目标完成率为103%，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.308859703536771, '场景': 238, 'Background1': '你是一家零售企业的线上运营经理。', 'Background2': '目标新增店铺浏览量1000人次/月。', 'Background3': '你可以选择社群营销或平台推广。你会选择？', 'A': '社群营销', 'B': '平台推广', 'Feedback': '你实际新增了500人次/月，目标完成率为50%，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.309970919484102, '场景': 114, 'Background1': '你是一家软件开发公司的项目经理。', 'Background2': '目标在6个月内完成软件开发项目。', 'Background3': '你可以选择采用敏捷开发方法或增加开发人员。你会选择？', 'A': '采用敏捷开发方法', 'B': '增加开发人员', 'Feedback': '你实际在7个月内完成了软件开发项目，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.319254607933638, '场景': 20, 'Background1': '你是一家制造企业的内部控制经理。', 'Background2': '目标将内部控制缺陷率降低至5%以内。', 'Background3': '你可以选择优化内部控制流程或增加内部检查频次。你会选择？', 'A': '优化内部控制流程', 'B': '增加内部检查频次', 'Feedback': '你实际将缺陷率增至7%，评级为差，未达考核要求。'}, {'合并编号': 105, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.32145074414438, '场景': 105, 'Background1': '你是一家咨询公司的项目质量经理。', 'Background2': '目标将项目成功率提升至90%以上。', 'Background3': '你可以选择采用风险管理工具或增加项目管理培训。你会选择？', 'A': '采用风险管理工具', 'B': '增加项目管理培训', 'Feedback': '你实际将项目成功率提升至95%，评级为优，超出考核要求'}, {'合并编号': 269, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.376288019340668, '场景': 269, 'Background1': '你是一家物流公司的运营经理。', 'Background2': '目标配送准时率为95%。', 'Background3': '你可以选择增加配送车辆或优化配送路线。你会选择？', 'A': '增加配送车辆', 'B': '优化配送路线', 'Feedback': '你实际达到了98%的配送准时率，目标完成率为103%，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.306347617103357, '场景': 296, 'Background1': '你是一家重工业企业的能源管理主管。', 'Background2': '目标单位能耗降低率为15%。', 'Background3': '你可以选择工艺流程优化或节能设备改造。你会选择？', 'A': '工艺流程优化', 'B': '节能设备改造', 'Feedback': '你实际达到了5%，预算差异率为-67%，为不利差异，未达考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.323433768872613, '场景': 10, 'Background1': '你是一家餐饮连锁店的财务总监。', 'Background2': '目标将单店日均利润提升至2000元以上。', 'Background3': '你可以选择提升菜品价格或增加菜品种类。你会选择？', 'A': '提升菜品价格', 'B': '增加菜品种类', 'Feedback': '你实际将单店日均利润提升至1500元，评级为差，未达考核要求。'}, {'合并编号': 63, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.324785923922245, '场景': 63, 'Background1': '你是一家教育机构的课程开发经理。', 'Background2': '目标开发20门新课程。', 'Background3': '你可以选择采用模块化课程设计或增加课程开发团队。你会选择？', 'A': '采用模块化课程设计', 'B': '增加课程开发团队', 'Feedback': '你实际开发了30门新课程，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.326227798315213, '场景': 204, 'Background1': '你是一家建筑公司的项目管理主管。', 'Background2': '目标项目按时完成率达到90%。', 'Background3': '你可以选择增加项目管理人员或优化项目管理流程。你会选择？', 'A': '增加项目管理人员', 'B': '优化项目管理流程', 'Feedback': '你实际达到了85%的项目按时完成率，目标完成率为94%，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.350586586266595, '场景': 244, 'Background1': '你是一家贸易公司的产品经理。', 'Background2': '目标销售毛利率为30%。', 'Background3': '你可以选择降低采购成本或优化产品结构。你会选择？', 'A': '降低采购成本', 'B': '优化产品结构', 'Feedback': '你实际达到了15%，预算差异率为-50%，为不利差异，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.350620173130157, '场景': 14, 'Background1': '你是一家电子商务平台的财务分析师。', 'Background2': '目标将运营成本率降低至40%以内。', 'Background3': '你可以选择提升运营效率或优化供应链管理。你会选择？', 'A': '提升运营效率', 'B': '优化供应链管理', 'Feedback': '你实际将运营成本比例降至45%，评级为差，未达考核要求。'}, {'合并编号': 297, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.351186662184533, '场景': 297, 'Background1': '你是一家珠宝店的店长。', 'Background2': '目标季度销售额为500万。', 'Background3': '你可以选择提供定制服务或增加高端产品线。你会选择？', 'A': '提供定制服务', 'B': '增加高端产品线', 'Feedback': '你实际完成了750万销售额，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.354487251888694, '场景': 242, 'Background1': '你是一家律师事务所的案件协调员。', 'Background2': '目标季度案件结案率为80%。', 'Background3': '你可以选择优化案件分配或增加律师资源。你会选择？', 'A': '优化案件分配', 'B': '增加律师资源', 'Feedback': '你实际达到了60%的结案率，目标完成率为75%，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.354697625720326, '场景': 266, 'Background1': '你是一家玩具公司的设计师。', 'Background2': '目标季度新设计玩具数为10款。', 'Background3': '你可以选择采用新技术或增加设计团队。你会选择？', 'A': '采用新技术', 'B': '增加设计团队', 'Feedback': '你实际设计了5款玩具，目标完成率为50%，未达考核要求。'}, {'合并编号': 7, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.379557962557153, '场景': 7, 'Background1': '你是一家建筑公司的财务分析师。', 'Background2': '目标将项目预算超支比例控制在3%以内。', 'Background3': '你可以选择优化项目预算编制或加强成本审计。你会选择？', 'A': '优化项目预算编制', 'B': '加强成本审计', 'Feedback': '你实际将预算超支比例控制在2%，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.315224004038094, '场景': 186, 'Background1': '你是一家房地产公司的营销主管。', 'Background2': '目标新楼盘销售率达到70%。', 'Background3': '你可以选择提供购房优惠或增加营销力度。你会选择？', 'A': '提供购房优惠', 'B': '增加营销力度', 'Feedback': '你实际达到了60%的新楼盘销售率，目标完成率为86%，未达考核要求。'}, {'合并编号': 295, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.374787094154962, '场景': 295, 'Background1': '你是一家制造企业的质量主管。', 'Background2': '目标产品返修率低于5%。', 'Background3': '你可以选择改进工艺或加强质检。你会选择？', 'A': '改进工艺', 'B': '加强质检', 'Feedback': '你实际达到了2%的产品返修率，目标完成率为60%，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.308299229643804, '场景': 206, 'Background1': '你是一家健身房的运营经理。', 'Background2': '目标月度新增会员数为100人。', 'Background3': '你可以选择举办健身挑战活动或提供会员优惠。你会选择？', 'A': '举办健身挑战活动', 'B': '提供会员优惠', 'Feedback': '你实际新增了50人，目标完成率为50%，未达考核要求。'}, {'合并编号': 109, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.378978929275001, '场景': 109, 'Background1': '你是一家房地产公司的市场经理。', 'Background2': '目标将新楼盘销售额提升至5000万以上。', 'Background3': '你可以选择提供购房优惠或增加广告投入。你会选择？', 'A': '提供购房优惠', 'B': '增加广告投入', 'Feedback': '你实际实现了6000万的新楼盘销售额，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.380216349156051, '场景': 120, 'Background1': '你是一家咨询公司的业务发展经理。', 'Background2': '目标将新客户数量增加至50家。', 'Background3': '你可以选择优化客户服务体验或增加市场营销预算。你会选择？', 'A': '优化客户服务体验', 'B': '增加市场营销预算', 'Feedback': '你实际增加了25家新客户，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.358655148741608, '场景': 218, 'Background1': '你是一家科技公司的毛利管理主管。', 'Background2': '目标新产品销售毛利率为30%。', 'Background3': '你可以选择提升产品附加值或优化供应链。你会选择？', 'A': '提升产品附加值', 'B': '优化供应链', 'Feedback': '你实际达到了15%，预算差异率为-50%，为不利差异，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.327806399516689, '场景': 176, 'Background1': '你是一家电商公司的售后经理。', 'Background2': '退款率应低于25%。', 'Background3': '你可以选择加强客服培训或优化产品说明。你会选择？', 'A': '加强客服培训', 'B': '优化产品说明', 'Feedback': '你实际达到了40%，预算差异率为60%，为不利差异，未达考核要求。'}, {'合并编号': 145, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.382667379931199, '场景': 145, 'Background1': '你是一家广告公司的财务分析师。', 'Background2': '目标将广告创意的投入产出比提升至5:1。', 'Background3': '你可以选择提高创意效率或增加创意团队规模。你会选择？', 'A': '提高创意效率', 'B': '增加创意团队规模', 'Feedback': '你实际将投入产出比提升至6:1，评级为优，超出考核要求'}, {'合并编号': 143, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.382854870803913, '场景': 143, 'Background1': '你是一家教育机构的财务总监。', 'Background2': '目标将课程的净利润率提升至25%以上。', 'Background3': '你可以选择降低教学成本或增加课程价格。你会选择？', 'A': '降低教学成本', 'B': '增加课程价格', 'Feedback': '你实际将净利润率提升至30%，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.387000712298483, '场景': 56, 'Background1': '你是一家电子制造企业的成本管理主管。', 'Background2': '目标将单位产品能耗降低至0.5度电以内。', 'Background3': '你可以选择实施节能措施或升级生产线设备。你会选择？', 'A': '实施节能措施', 'B': '升级生产线设备', 'Feedback': '你实际将单位产品能耗降至0.6度电，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.388443830395176, '场景': 16, 'Background1': '你是一家生物技术公司的财务分析师。', 'Background2': '目标将研发投入成果转化率提升至12%以上。', 'Background3': '你可以选择优化研发流程或增加研发资金。你会选择？', 'A': '优化研发流程', 'B': '增加研发资金', 'Feedback': '你实际将成果转化率提升至6%，评级为差，未达考核要求。'}, {'合并编号': 273, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.390536050452465, '场景': 273, 'Background1': '你是一家研发中心的成果转化主管。', 'Background2': '目标科研成果转化次数为5次。', 'Background3': '你可以选择技术授权或市场应用。你会选择？', 'A': '技术授权', 'B': '市场应用', 'Feedback': '你实际成功转化了8次，目标完成率为160%，超出考核要求。'}, {'合并编号': 75, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.391193471190468, '场景': 75, 'Background1': '你是一家餐饮集团的运营经理。', 'Background2': '目标将餐厅翻台率提升至15次以上。', 'Background3': '你可以选择提供快速服务或优化餐厅布局。你会选择？', 'A': '提供快速服务', 'B': '优化餐厅布局', 'Feedback': '你实际提升了20次的翻台率，评级为优，超出考核要求'}, {'合并编号': 33, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.393965784161906, '场景': 33, 'Background1': '你是一家零售公司的库存控制经理。', 'Background2': '目标将库存积压率降低至5%以内。', 'Background3': '你可以选择优化库存预测或增加库存周转率。你会选择？', 'A': '优化库存预测', 'B': '增加库存周转率', 'Feedback': '你实际达到了3%的库存积压率，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.396366174000774, '场景': 166, 'Background1': '你是一家创新公司的风险管理主管。', 'Background2': '研发失误损失成本应低于5万元。', 'Background3': '你可以选择分步实施或提前测试。你会选择？', 'A': '分步实施', 'B': '提前测试', 'Feedback': '你的实际损失成本为7万元，预算差异率为40%，为不利差异，未达考核要求。'}, {'合并编号': 225, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.39973348828447, '场景': 225, 'Background1': '你是一家科技公司的研究项目经理。', 'Background2': '目标科研课题完成数量为5个。', 'Background3': '你可以选择开拓新领域或攻关现有技术。你会选择？', 'A': '开拓新领域', 'B': '攻关现有技术', 'Feedback': '你实际完成了8个，目标完成率为150%，超出考核要求。'}, {'合并编号': 27, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.402141177107899, '场景': 27, 'Background1': '你是一家电信公司的内部控制经理。', 'Background2': '目标将服务中断次数控制在5次以内。', 'Background3': '你可以选择提升应急响应能力或加强网络维护。你会选择？', 'A': '提升应急响应能力', 'B': '加强网络维护', 'Feedback': '你实际将服务中断次数降至1次，评级为优，超出考核要求'}, {'合并编号': 223, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.404514306279909, '场景': 223, 'Background1': '你是一家科技公司的研发规划经理。', 'Background2': '目标新增研发方案5项。', 'Background3': '你可以选择引进技术或自主创新。你会选择？', 'A': '引进技术', 'B': '自主创新', 'Feedback': '你实际新增了8项，目标完成率为160%，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.404869497306799, '场景': 282, 'Background1': '你是一家制药公司的临床试验主管。', 'Background2': '目标临床试验周期为24个月。', 'Background3': '你可以选择优化试验流程或增加试验基地。你会选择？', 'A': '优化试验流程', 'B': '增加试验基地', 'Feedback': '你实际在30个月内完成，预算差异率为25%，为有不利差异，未达考核要求。'}, {'合并编号': 155, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.412333988587191, '场景': 155, 'Background1': '你是一家保险公司的精算主管。', 'Background2': '目标保险赔付率控制在80%以下。', 'Background3': '你可以选择加强风险控制或优化保险产品设计。你会选择？', 'A': '加强风险控制', 'B': '优化保险产品设计', 'Feedback': '你实际将赔付率控制在75%，预算差异率为-6.25%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.412713338510944, '场景': 288, 'Background1': '你是一家制造企业的成本控制经理。', 'Background2': '目标变动成本降低率为5%。', 'Background3': '你可以选择工艺参数改进或生产批量优化。你会选择？', 'A': '工艺参数改进', 'B': '生产批量优化', 'Feedback': '你实际达到了2%，预算差异率为-60%，为不利差异，未达考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.416557082142227, '场景': 284, 'Background1': '你是一家制造企业的安全技术主管。', 'Background2': '目标研发创新降低生产安全事故比率为20%。', 'Background3': '你可以选择流程管控或设备防护。你会选择？', 'A': '流程管控', 'B': '设备防护', 'Feedback': '你实际达到了10%，目标完成率为50%，未达考核要求。'}, {'合并编号': 177, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.420497739245042, '场景': 177, 'Background1': '你是一家电商公司的运营主管。', 'Background2': '目标销售订单数为1000单。', 'Background3': '你可以选择品牌营销或促销让利。你会选择？', 'A': '品牌营销', 'B': '促销让利', 'Feedback': '你实际销售了1500单，目标完成率为150%，超出考核要求。'}, {'合并编号': 161, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.421917981808992, '场景': 161, 'Background1': '你是一家餐饮连锁的会员运营主管。', 'Background2': '目标新增回头客20个。', 'Background3': '你可以选择专属优惠或积分奖励。你会选择？', 'A': '专属优惠', 'B': '积分奖励', 'Feedback': '你实际新增了30个，目标完成率为150%，超出考核要求。'}, {'合并编号': 213, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.42392831908567, '场景': 213, 'Background1': '你是一家酒店的餐饮部经理。', 'Background2': '目标月度餐饮收入增长率为15%。', 'Background3': '你可以选择提升服务质量或推出新菜品。你会选择？', 'A': '提升服务质量', 'B': '推出新菜品', 'Feedback': '你实际实现了25%的收入增长率，预算差异率为66.67%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.424117090584507, '场景': 132, 'Background1': '你是一家能源公司的环境工程师。', 'Background2': '目标将碳排放量减少15%。', 'Background3': '你可以选择提高能源效率或投资可再生能源。你会选择？', 'A': '提高能源效率', 'B': '投资可再生能源', 'Feedback': '你实际减少了10%的碳排放量，评级为差，未达考核要求。'}, {'合并编号': 139, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.425567628743571, '场景': 139, 'Background1': '你是一家制造企业的质量控制经理。', 'Background2': '目标将产品缺陷率降低至3%以内。', 'Background3': '你可以选择采用自动化检测技术或增加质量检测频次。你会选择？', 'A': '采用自动化检测技术', 'B': '增加质量检测频次', 'Feedback': '你实际将产品缺陷率降至1%，评级为优，超出考核要求'}, {'合并编号': 115, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.434106390072831, '场景': 115, 'Background1': '你是一家建筑公司的项目经理。', 'Background2': '目标在8个月内完成建筑工程。', 'Background3': '你可以选择优化施工计划或增加施工人员。你会选择？', 'A': '优化施工计划', 'B': '增加施工人员', 'Feedback': '你实际在6个月内完成了建筑工程，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.436952575309899, '场景': 196, 'Background1': '你是一家航空公司的运营经理。', 'Background2': '目标季度航班准点率为85%。', 'Background3': '你可以选择优化航班调度或增加航班数量。你会选择？', 'A': '优化航班调度', 'B': '增加航班数量', 'Feedback': '你实际达到了80%的准点率，目标完成率为94%，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.440073447828849, '场景': 172, 'Background1': '你是一家创新企业的项目经理。', 'Background2': '目标推进新项目数5个。', 'Background3': '你可以选择合作开发或自主研发。你会选择？', 'A': '合作开发', 'B': '自主研发', 'Feedback': '你实际推出了2个，目标完成率为40%，未达考核要求。'}, {'合并编号': 83, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.441747526508064, '场景': 83, 'Background1': '你是一家航空公司的运营经理。', 'Background2': '目标将航班准点率提升至90%以上。', 'Background3': '你可以选择提升地勤效率或优化航班调度。你会选择？', 'A': '提升地勤效率', 'B': '优化航班调度', 'Feedback': '你实际将航班准点率提升至95%，评级为优，超出考核要求'}, {'合并编号': 123, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.442967418009515, '场景': 123, 'Background1': '你是一家餐饮连锁的财务经理。', 'Background2': '目标实现食材成本降低10%。', 'Background3': '你可以选择优化菜单或批量采购。你会选择？', 'A': '优化菜单', 'B': '批量采购', 'Feedback': '你实际降低了20%的食材成本，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.448813303092899, '场景': 28, 'Background1': '你是一家物流公司的内部控制经理。', 'Background2': '目标将货物丢失率控制在0.5%以内。', 'Background3': '你可以选择提升员工责任意识或加强货物监控。你会选择？', 'A': '提升员工责任意识', 'B': '加强货物监控', 'Feedback': '你实际将货物丢失率降至0.7%，评级为差，未达考核要求。'}, {'合并编号': 265, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.45887046696031, '场景': 265, 'Background1': '你是一家图书批发商的采购经理。', 'Background2': '目标年度采购量为100万册。', 'Background3': '你可以选择提高采购效率或增加采购渠道。你会选择？', 'A': '提高采购效率', 'B': '增加采购渠道', 'Feedback': '你实际采购了150万册，目标完成率为150%，超出考核要求。'}, {'合并编号': 283, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.461700910678341, '场景': 283, 'Background1': '你是一家制药公司的研发主管。', 'Background2': '目标新药品研发周期为5年。', 'Background3': '你可以选择优化研发资源或加速研发流程。你会选择？', 'A': '优化研发资源', 'B': '加速研发流程', 'Feedback': '你实际在4年内完成了新药品研发，预算差异率为-20%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.36261636986281, '场景': 262, 'Background1': '你是一家生产企业的人力资源主管。', 'Background2': '目标人工成本节约率为20%。', 'Background3': '你可以选择岗位职责整合或工时标准优化。你会选择？', 'A': '岗位职责整合', 'B': '工时标准优化', 'Feedback': '你实际达到了10%，预算差异率为-50%，为不利差异，未达考核要求'}, {'合并编号': 81, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.462884217765224, '场景': 81, 'Background1': '你是一家音乐流媒体公司的运营经理。', 'Background2': '目标将付费用户数提升至100万以上。', 'Background3': '你可以选择优化推荐算法或增加独家音乐内容。你会选择？', 'A': '优化推荐算法', 'B': '增加独家音乐内容', 'Feedback': '你实际提升了150万的付费用户数，评级为优，超出考核要求'}, {'合并编号': 207, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.466678717562441, '场景': 207, 'Background1': '你是一家健身连锁的客户发展主管。', 'Background2': '目标客户增长率为20%。', 'Background3': '你可以选择口碑推荐或促销优惠。你会选择？', 'A': '口碑推荐', 'B': '促销优惠', 'Feedback': '你实际达到了30%，目标完成率为150%，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.467066157149929, '场景': 140, 'Background1': '你是一家零售企业的财务总监。', 'Background2': '目标将资金占用率降低至10%以内。', 'Background3': '你可以选择优化库存结构或增加库存周转率。你会选择？', 'A': '优化库存结构', 'B': '增加库存周转率', 'Feedback': '你实际将资金占用比例降至12%，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.467821553174241, '场景': 100, 'Background1': '你是一家制造企业的生产主管。', 'Background2': '目标将生产线自动化水平提升至70%以上。', 'Background3': '你可以选择改进生产流程或引入机器人技术。你会选择？', 'A': '改进生产流程', 'B': '引入机器人技术', 'Feedback': '你实际将生产线自动化水平提升至60%，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.48102081809449, '场景': 222, 'Background1': '你是一家科技公司的研发成本控制主管。', 'Background2': '目标新产品研发成本下降10000元。', 'Background3': '你可以选择降低研发人员工资或优化研发流程。你会选择？', 'A': '降低研发人员工资', 'B': '优化研发流程', 'Feedback': '你实际降低了5000元，预算差异率为-50%，为不利差异，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.481562001584557, '场景': 66, 'Background1': '你是一家科技公司的研发经理。', 'Background2': '目标开发5项新AI应用。', 'Background3': '你可以选择合作与学术机构或增加AI研究团队。你会选择？', 'A': '合作与学术机构', 'B': '增加AI研究团队', 'Feedback': '你实际开发了2项新AI应用，评级为差，未达考核要求。'}, {'合并编号': 59, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.497395790055403, '场景': 59, 'Background1': '你是一家制药公司的生产经理。', 'Background2': '目标将药品生产成本降低至10%以内。', 'Background3': '你可以选择改进包装流程或优化生产配方。你会选择？', 'A': '改进包装流程', 'B': '优化生产配方', 'Feedback': '你实际降低了15%的生产成本，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.500236287336039, '场景': 30, 'Background1': '你是一家建筑公司的内部控制经理。', 'Background2': '目标将施工延期率控制在2%以内。', 'Background3': '你可以选择提升施工效率或加强项目管理。你会选择？', 'A': '提升施工效率', 'B': '加强项目管理', 'Feedback': '你实际将施工延期率降至3%，评级为差，未达考核要求。'}, {'合并编号': 271, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.503881288046084, '场景': 271, 'Background1': '你是一家销售公司的区域主管。', 'Background2': '差旅费应低于2万。', 'Background3': '你可以选择集中拜访或远程会议。你会选择？', 'A': '集中拜访', 'B': '远程会议', 'Feedback': '你实际支出了1万，预算差异率为-50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.512807434569082, '场景': 190, 'Background1': '你是一家工业企业的节能改造主管。', 'Background2': '目标研发创新为生产设备节能20%。', 'Background3': '你可以选择运行优化或设备升级。你会选择？', 'A': '运行优化', 'B': '设备升级', 'Feedback': '你实际达到了10%，目标完成率为50%，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.520398224999565, '场景': 24, 'Background1': '你是一家物流公司的内部控制经理。', 'Background2': '目标将货物损坏率控制在1%以内。', 'Background3': '你可以选择提升员工操作技能或加强包装标准。你会选择？', 'A': '提升员工操作技能', 'B': '加强包装标准', 'Feedback': '你实际将货物损坏率降至1.5%，评级为差，未达考核要求。'}, {'合并编号': 253, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.521564994800472, '场景': 253, 'Background1': '你是一家软件开发公司的产品经理。', 'Background2': '目标年度软件销售额为1000万。', 'Background3': '你可以选择降低价格或增加软件功能。你会选择？', 'A': '降低价格', 'B': '增加软件功能', 'Feedback': '你实际完成了1500万的销售额，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.524340679386028, '场景': 178, 'Background1': '你是一家电商公司的转化率优化主管。', 'Background2': '目标店铺收藏加购比率为15%。', 'Background3': '你可以选择详情优化或优惠促销。你会选择？', 'A': '详情优化', 'B': '优惠促销', 'Feedback': '你实际达到了6%，目标完成率为40%，未达考核要求。'}, {'合并编号': 209, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.525578496456908, '场景': 209, 'Background1': '你是一家教育机构的课程顾问。', 'Background2': '目标季度课程销售额为10万。', 'Background3': '你可以选择提供折扣优惠或增加课程种类。你会选择？', 'A': '提供折扣优惠', 'B': '增加课程种类', 'Feedback': '你实际完成了15万，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.526361407354784, '场景': 62, 'Background1': '你是一家广告公司的创意总监。', 'Background2': '目标创作10个新广告文案。', 'Background3': '你可以选择聘请外部作家或内部创意竞赛。你会选择？', 'A': '聘请外部作家', 'B': '内部创意竞赛', 'Feedback': '你实际创作了5个新广告文案，评级为差，未达考核要求。'}, {'合并编号': 49, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.531147899162081, '场景': 49, 'Background1': '你是一家广告公司的财务经理。', 'Background2': '目标将坏账准备控制在50万元以内。', 'Background3': '你可以选择提高账期灵活性或加强客户信用管理。你会选择？', 'A': '提高账期灵活性', 'B': '加强客户信用管理', 'Feedback': '你实际将坏账准备控制在30万元内，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.541012832927153, '场景': 12, 'Background1': '你是一家建筑公司的财务分析师。', 'Background2': '目标将项目回款率提升至90%以上。', 'Background3': '你可以选择优化合同条款或加强回款管理。你会选择？', 'A': '优化合同条款', 'B': '加强回款管理', 'Feedback': '你实际将项目回款率提升至85%，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.543352352355068, '场景': 272, 'Background1': '你是一家研发企业的成本控制经理。', 'Background2': '新产品平均研发成本应低于10万元。', 'Background3': '你可以选择模块化设计或标准化研发。你会选择？', 'A': '模块化设计', 'B': '标准化研发', 'Feedback': '你的实际平均成本为15万元，预算差异率为50%，为不利差异，未达考核要求。'}, {'合并编号': 249, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.546227133164842, '场景': 249, 'Background1': '你是一家汽车零部件企业的生产主管。', 'Background2': '目标生产提前完工率为10%。', 'Background3': '你可以选择产能提升改造或工序优化改善。你会选择？', 'A': '产能提升改造', 'B': '工序优化改善', 'Feedback': '你实际达到了15%，预算差异率为50%，为有利差异，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.546643241208483, '场景': 36, 'Background1': '你是一家软件开发公司的内部控制经理。', 'Background2': '目标将软件缺陷率降低至1%以内。', 'Background3': '你可以选择提升开发工具或加强代码审查。你会选择？', 'A': '提升开发工具', 'B': '加强代码审查', 'Feedback': '你实际将软件缺陷率降至1.5%，评级为差，未达考核要求。'}, {'合并编号': 101, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.546764447910804, '场景': 101, 'Background1': '你是一家出版公司的编辑经理。', 'Background2': '目标将书籍销量提升至500万册以上。', 'Background3': '你可以选择优化书籍营销策略或增加新书种类。你会选择？', 'A': '优化书籍营销策略', 'B': '增加新书种类', 'Feedback': '你实际实现了600万册的书籍销量，评级为优，超出考核要求'}, {'合并编号': 235, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.552949611756993, '场景': 235, 'Background1': '你是一家零售企业的行政经理。', 'Background2': '管理费用应低于4万。', 'Background3': '你可以选择精简办公模式或缩减管理人员。你会选择？', 'A': '精简办公模式', 'B': '缩减管理人员', 'Feedback': '你实际支出了2万，预算差异率为-50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.554607806282109, '场景': 274, 'Background1': '你是一家研发中心的实验室主管。', 'Background2': '目标研发试验平均成功率为60%。', 'Background3': '你可以选择优化实验方法或提升实验设备。你会选择？', 'A': '优化实验方法', 'B': '提升实验设备', 'Feedback': '你实际达到了30%，目标完成率为50%，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.554477713072021, '场景': 42, 'Background1': '你是一家电子商务平台的内部控制经理。', 'Background2': '目标将在线交易欺诈事件控制在5起以内。', 'Background3': '你可以选择提升用户教育或加强交易安全。你会选择？', 'A': '提升用户教育', 'B': '加强交易安全', 'Feedback': '你实际将在线交易欺诈事件降至8起，评级为差，未达考核要求。'}, {'合并编号': 3, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.56839083623282, '场景': 3, 'Background1': '你是一家服装品牌的财务经理。', 'Background2': '目标将库存积压损失占总成本的比例降低至5%以内。', 'Background3': '你可以选择优化库存预测或增加库存周转率。你会选择？', 'A': '优化库存预测', 'B': '增加库存周转率', 'Feedback': '你实际将库存积压损失比例降至3%，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.563244689514957, '场景': 168, 'Background1': '你是一家创新企业的产品组合经理。', 'Background2': '目标新产品销售额占总销售额比例为20%。', 'Background3': '你可以选择提升产品性能或加大营销投入。你会选择？', 'A': '提升产品性能', 'B': '加大营销投入', 'Feedback': '你实际达到了10%，预算差异率为-50%，为不利差异，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.564812310714778, '场景': 60, 'Background1': '你是一家软件开发公司的技术部门负责人。', 'Background2': '目标开发10个新软件功能。', 'Background3': '你可以选择提高开发效率或增加开发人员。你会选择？', 'A': '提高开发效率', 'B': '增加开发人员', 'Feedback': '你实际开发了5个新软件功能，评级为差，未达考核要求。'}, {'合并编号': 281, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.568815082904353, '场景': 281, 'Background1': '你是一家在线支付平台的风险控制经理。', 'Background2': '目标季度风险事件数低于10起。', 'Background3': '你可以选择提升技术防护或加强用户教育。你会选择？', 'A': '提升技术防护', 'B': '加强用户教育', 'Feedback': '你实际将风险事件数控制在5起，目标完成率为50%，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.57199548541786, '场景': 198, 'Background1': '你是一家化工企业的研发经理。', 'Background2': '目标投产新材料10种。', 'Background3': '你可以选择创新型新材料或改进型新材料。你会选择？', 'A': '创新型新材料', 'B': '改进型新材料', 'Feedback': '你实际投产了5种，目标完成率为50%，未达考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.576007984527593, '场景': 18, 'Background1': '你是一家制造企业的财务总监。', 'Background2': '目标将生产废品率降低至2%以内。', 'Background3': '你可以选择引入自动化检测或加强员工培训。你会选择？', 'A': '引入自动化检测', 'B': '加强员工培训', 'Feedback': '你实际将废品率降至2.5%，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.588596928873374, '场景': 76, 'Background1': '你是一家餐饮公司的运营经理。', 'Background2': '目标提升餐厅营业额20%。', 'Background3': '你可以选择提升服务质量或增加菜品种类。你会选择？', 'A': '提升服务质量', 'B': '增加菜品种类', 'Feedback': '你实际提升了10%的餐厅营业额，评级为差，未达考核要求。'}, {'合并编号': 107, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.589593903589375, '场景': 107, 'Background1': '你是一家IT咨询公司的项目经理。', 'Background2': '目标提升项目交付速度20%。', 'Background3': '你可以选择优化项目管理或增加项目资源。你会选择？', 'A': '优化项目管理', 'B': '增加项目资源', 'Feedback': '你实际提升了30%的项目交付速度，评级为优，超出考核要求'}, {'合并编号': 187, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.591292468757161, '场景': 187, 'Background1': '你是一家房地产中介的业务主管。', 'Background2': '目标月成交房屋数为20套。', 'Background3': '你可以选择举办看房团或提供购房咨询。你会选择？', 'A': '举办看房团', 'B': '提供购房咨询', 'Feedback': '你实际成交了30套，目标完成率为150%，超出考核要求。'}, {'合并编号': 129, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.594011179029454, '场景': 129, 'Background1': '你是一家汽车制造公司的财务经理。', 'Background2': '目标将材料成本占总成本的比例降低至40%以内。', 'Background3': '你可以选择材料替代或长期采购合同。你会选择？', 'A': '材料替代', 'B': '长期采购合同', 'Feedback': '你实际将材料成本比例降至35%，评级为优，超出考核要求'}, {'合并编号': 71, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.595917798363634, '场景': 71, 'Background1': '你是一家房地产公司的项目开发经理。', 'Background2': '目标缩短项目开发周期至18个月以内。', 'Background3': '你可以选择采用快速开发流程或增加项目管理团队。你会选择？', 'A': '采用快速开发流程', 'B': '增加项目管理团队', 'Feedback': '你实际将项目开发周期缩短至15个月，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.576746538246832, '场景': 68, 'Background1': '你是一家能源公司的能源交易经理。', 'Background2': '目标实现能源交易量增长20%。', 'Background3': '你可以选择优化交易策略或增加交易品种。你会选择？', 'A': '优化交易策略', 'B': '增加交易品种', 'Feedback': '你实际实现了10%的能源交易量增长，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.584363892453714, '场景': 250, 'Background1': '你是一家汽车销售公司的区域经理。', 'Background2': '目标月销量为50辆。', 'Background3': '你可以选择增加试驾活动或提供购车贷款优惠。你会选择？', 'A': '增加试驾活动', 'B': '提供购车贷款优惠', 'Feedback': '你实际销售了25辆，目标完成率为50%，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.588088475624633, '场景': 184, 'Background1': '你是一家电子制造企业的生产经理。', 'Background2': '目标原材料利用提升率为20%。', 'Background3': '你可以选择材料替代方案或工艺参数优化。你会选择？', 'A': '材料替代方案', 'B': '工艺参数优化', 'Feedback': '你实际达到了10%，预算差异率为-50%，为不利差异，未达考核要求'}, {'合并编号': 133, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.612524813936843, '场景': 133, 'Background1': '你是一家广告公司的财务总监。', 'Background2': '目标将制作成本占项目成本的比例降低至20%以内。', 'Background3': '你可以选择外包制作或内部制作。你会选择？', 'A': '外包制作', 'B': '内部制作', 'Feedback': '你实际将制作成本比例降至15%，评级为优，超出考核要求'}, {'合并编号': 57, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.614345678977987, '场景': 57, 'Background1': '你是一家科技公司的网络安全经理。', 'Background2': '目标将网络安全事故控制在每年5起以内。', 'Background3': '你可以选择加强员工安全培训或增加安全监控系统。你会选择？', 'A': '加强员工安全培训', 'B': '增加安全监控系统', 'Feedback': '你实际将网络安全事故降至每年2起，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.616882732791881, '场景': 226, 'Background1': '你是一家科技公司的硬件开发主管。', 'Background2': '目标新硬件开发周期为18个月。', 'Background3': '你可以选择引入外部专家或增加研发人员。你会选择？', 'A': '引入外部专家', 'B': '增加研发人员', 'Feedback': '你实际在24个月内完成，预算差异率为33.33%，为不利差异，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.631565580353537, '场景': 86, 'Background1': '你是一家酒店的客房服务经理。', 'Background2': '目标将客房服务评分提升至4.8分以上。', 'Background3': '你可以选择改善客房设施或提供额外的客房服务。你会选择？', 'A': '改善客房设施', 'B': '提供额外的客房服务', 'Feedback': '你实际将客房服务评分提升至4.5分，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.642169427512032, '场景': 64, 'Background1': '你是一家餐饮公司的菜单开发经理。', 'Background2': '目标开发20种新菜品。', 'Background3': '你可以选择采用新烹饪技术或增加厨师团队。你会选择？', 'A': '采用新烹饪技术', 'B': '增加厨师团队', 'Feedback': '你实际开发了10种新菜品，评级为差，未达考核要求。'}, {'合并编号': 279, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.642479250237767, '场景': 279, 'Background1': '你是一家在线教育平台的内容开发经理。', 'Background2': '目标年度新课程开发数量为40门。', 'Background3': '你可以选择外包给专业机构或内部开发团队。你会选择？', 'A': '外包给专业机构', 'B': '内部开发团队', 'Feedback': '你实际开发了60门新课程，目标完成率为150%，超出考核要求。'}, {'合并编号': 91, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.644796743583453, '场景': 91, 'Background1': '你是一家农业公司的生产负责人。', 'Background2': '目标将农作物产量提升至1000吨以上。', 'Background3': '你可以选择增加肥料使用或引入新型种植技术。你会选择？', 'A': '增加肥料使用', 'B': '引入新型种植技术', 'Feedback': '你实际提升了1500吨的农作物产量，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.646849370842365, '场景': 240, 'Background1': '你是一家旅游公司的市场经理。', 'Background2': '目标年度旅游团组数为200个。', 'Background3': '你可以选择提供更多优惠或增加旅游目的地。你会选择？', 'A': '提供更多优惠', 'B': '增加旅游目的地', 'Feedback': '你实际组织了100个旅游团，目标完成率为50%，未达考核要求。'}, {'合并编号': 45, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.653360401667534, '场景': 45, 'Background1': '你是一家建筑公司的内部控制经理。', 'Background2': '目标将施工成本超支率降低至5%以内。', 'Background3': '你可以选择提升预算管理或加强成本控制。你会选择？', 'A': '提升预算管理', 'B': '加强成本控制', 'Feedback': '你实际将施工成本超支率降至3%，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.657970619893955, '场景': 112, 'Background1': '你是一家科技公司的研发部门负责人。', 'Background2': '目标在12个月内完成新产品研发。', 'Background3': '你可以选择采用敏捷开发方法或增加研发人员。你会选择？', 'A': '采用敏捷开发方法', 'B': '增加研发人员', 'Feedback': '你实际在15个月内完成了新产品研发，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.658933140761155, '场景': 92, 'Background1': '你是一家物流公司的负责人。', 'Background2': '目标将配送准时率提升至90%以上。', 'Background3': '你可以选择优化配送路线或增加配送人员。你会选择？', 'A': '优化配送路线', 'B': '增加配送人员', 'Feedback': '你实际实现了85%的配送准时率，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.659275111007955, '场景': 270, 'Background1': '你是一家物流配送公司的运营总监。', 'Background2': '目标月度准时送达率为95%。', 'Background3': '你可以选择优化配送路线或增加配送人员。你会选择？', 'A': '优化配送路线', 'B': '增加配送人员', 'Feedback': '你实际达到了90%的准时送达率，预算差异率为-5.3%，为不利差异，未达考核要求。'}, {'合并编号': 219, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.661670078444054, '场景': 219, 'Background1': '你是一家科技公司的人才发展经理。', 'Background2': '目标培养管理储备人才3人。', 'Background3': '你可以选择专项培养或轮岗培养。你会选择？', 'A': '专项培养', 'B': '轮岗培养', 'Feedback': '你实际培养了5人，目标完成率为167%，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.66378668515735, '场景': 118, 'Background1': '你是一家航空公司的航线规划员。', 'Background2': '目标将国际航线数量增加至10条以上。', 'Background3': '你可以选择自主开辟新航线或与国外航空公司合作。你会选择？', 'A': '自主开辟新航线', 'B': '与国外航空公司合作', 'Feedback': '你实际增加了5条国际航线，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.669685324809311, '场景': 170, 'Background1': '你是一家创新企业的人才引进经理。', 'Background2': '目标引进高层次人才5人。', 'Background3': '你可以选择国内引才或海外引才。你会选择？', 'A': '国内引才', 'B': '海外引才', 'Feedback': '你实际引进了2人，目标完成率为40%，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.670587452925001, '场景': 158, 'Background1': '你是一家保险公司的业务经理。', 'Background2': '目标月度新保单数为100份。', 'Background3': '你可以选择提供额外保险优惠或增加保险产品种类。你会选择？', 'A': '提供额外保险优惠', 'B': '增加保险产品种类', 'Feedback': '你实际完成了50份，目标完成率为50%，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.672595344140742, '场景': 50, 'Background1': '你是一家教育机构的财务总监。', 'Background2': '目标将教材成本削减30%。', 'Background3': '你可以选择开发电子教材或优化教材采购。你会选择？', 'A': '开发电子教材', 'B': '优化教材采购', 'Feedback': '你实际削减了35%的教材成本，评级为差，未达考核要求。'}, {'合并编号': 95, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.676401289173035, '场景': 95, 'Background1': '你是一家电子商务公司的物流经理。', 'Background2': '目标将物流延误率降低至2%以内。', 'Background3': '你可以选择优化物流系统或增加物流人员。你会选择？', 'A': '优化物流系统', 'B': '增加物流人员', 'Feedback': '你实际将物流延误率降至1%，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.678786886366119, '场景': 142, 'Background1': '你是一家化妆品公司的财务分析师。', 'Background2': '目标将营销费用削减20%。', 'Background3': '你可以选择优化传统广告或增加数字营销投入。你会选择？', 'A': '优化传统广告', 'B': '增加数字营销投入', 'Feedback': '你实际削减了10%的营销费用，评级为差，未达考核要求。'}, {'合并编号': 243, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.681668429846724, '场景': 243, 'Background1': '你是一家律师事务所的合伙人。', 'Background2': '目标年度处理案件数为100件。', 'Background3': '你可以选择提高案件处理效率或增加律师团队。你会选择？', 'A': '提高案件处理效率', 'B': '增加律师团队', 'Feedback': '你实际完成了150件案件，目标完成率为150%，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.682818648362708, '场景': 74, 'Background1': '你是一家酒店的营销经理。', 'Background2': '目标将客房入住率提升至70%以上。', 'Background3': '你可以选择合作伙伴推广或社交媒体营销。你会选择？', 'A': '合作伙伴推广', 'B': '社交媒体营销', 'Feedback': '你实际将入住率提高至60%，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.685228860054064, '场景': 248, 'Background1': '你是一家品牌企业的加盟拓展经理。', 'Background2': '目标新增加盟商25家。', 'Background3': '你可以选择单店加盟或区域授权。你会选择？', 'A': '单店加盟', 'B': '区域授权', 'Feedback': '你实际新增了10家，目标完成率为40%，未达考核要求。'}, {'合并编号': 285, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.688900879182229, '场景': 285, 'Background1': '你是一家制造企业的材料工程师。', 'Background2': '目标研发创新带来材料消耗降低率为10%。', 'Background3': '你可以选择工艺优化或新材料应用。你会选择？', 'A': '工艺优化', 'B': '新材料应用', 'Feedback': '你实际达到了15%，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.611763431421382, '场景': 138, 'Background1': '你是一家制药公司的市场经理。', 'Background2': '目标将新药的市场渗透率提升至25%以上。', 'Background3': '你可以选择优化销售渠道或增加市场推广预算。你会选择？', 'A': '优化销售渠道', 'B': '增加市场推广预算', 'Feedback': '你实际将市场渗透率提升至20%，评级为差，未达考核要求。'}, {'合并编号': 231, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.688935361457029, '场景': 231, 'Background1': '你是一家零售公司的人力资源主管。', 'Background2': '目标培养储备人才3人。', 'Background3': '你可以选择社会招聘或校园招聘。你会选择？', 'A': '社会招聘', 'B': '校园招聘', 'Feedback': '你实际培养了5人，目标完成率为167%，超出考核要求。'}, {'合并编号': 261, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.701403718577846, '场景': 261, 'Background1': '你是一家生产企业的渠道发展主管。', 'Background2': '目标新增代理商20家。', 'Background3': '你可以选择多级分销或独家代理。你会选择？', 'A': '多级分销', 'B': '独家代理', 'Feedback': '你实际新增了30家，目标完成率为150%，超出考核要求。'}, {'合并编号': 93, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.716816023663053, '场景': 93, 'Background1': '你是一家科技公司的市场营销经理。', 'Background2': '目标提升品牌曝光度30%。', 'Background3': '你可以选择举办线下活动或增加社交媒体活动。你会选择？', 'A': '举办线下活动', 'B': '增加社交媒体活动', 'Feedback': '你实际提升了40%的品牌曝光度，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.717471585480286, '场景': 46, 'Background1': '你是一家外贸公司的财务经理。', 'Background2': '目标将外汇风险损失控制在10万美元以内。', 'Background3': '你可以选择多元化货币结算或进行套期保值。你会选择？', 'A': '多元化货币结算', 'B': '进行套期保值', 'Feedback': '你实际将损失控制在15万美元，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.718445957343607, '场景': 210, 'Background1': '你是一家金融公司的风控经理。', 'Background2': '目标季度不良贷款率低于1%。', 'Background3': '你可以选择优化贷后管理或加强贷前审查。你会选择？', 'A': '优化贷后管理', 'B': '加强贷前审查', 'Feedback': '你实际将不良贷款率提高到了1.5%，预算差异率为50%，为不利差异，未达考核要求。'}, {'合并编号': 227, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.720658567117315, '场景': 227, 'Background1': '你是一家快消公司的产品经理。', 'Background2': '目标季度销售额为300万。', 'Background3': '你可以选择加强现有产品推广或推出新产品。你会选择？', 'A': '加强现有产品推广', 'B': '推出新产品', 'Feedback': '你实际完成了450万，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.730262160550068, '场景': 216, 'Background1': '你是一家咖啡连锁店的店长。', 'Background2': '目标日均客流量为200人。', 'Background3': '你可以选择增加咖啡外送服务或推出新口味咖啡。你会选择？', 'A': '增加咖啡外送服务', 'B': '推出新口味咖啡', 'Feedback': '你实际日均客流量为100人，目标完成率为50%，未达考核要求。'}, {'合并编号': 61, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.731085440292256, '场景': 61, 'Background1': '你是一家旅游公司的路线规划经理。', 'Background2': '目标开发10条新旅游路线。', 'Background3': '你可以选择合作与当地旅行社或增加市场调研。你会选择？', 'A': '合作与当地旅行社', 'B': '增加市场调研', 'Feedback': '你实际开发了15条新旅游路线，评级为优，超出考核要求'}, {'合并编号': 241, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.732791414629344, '场景': 241, 'Background1': '你是一家律师事务所的案件经理。', 'Background2': '目标季度案件胜诉率80%。', 'Background3': '你可以选择提升团队效率或增加资深律师。你会选择？', 'A': '提升团队效率', 'B': '增加资深律师', 'Feedback': '你实际达到了90%的胜诉率，目标完成率为112%，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.727565726169514, '场景': 164, 'Background1': '你是一家宠物用品店的店长。', 'Background2': '目标季度销售额为100万。', 'Background3': '你可以选择提供宠物美容服务或增加宠物食品种类。你会选择？', 'A': '提供宠物美容服务', 'B': '增加宠物食品种类', 'Feedback': '你实际完成了50万，预算差异率为-50%，为不利差异，未达考核要求。'}, {'合并编号': 53, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.733345195824923, '场景': 53, 'Background1': '你是一家金融服务公司的财务经理。', 'Background2': '目标将投资损失控制在500万元以内。', 'Background3': '你可以选择优化投资组合或加强投资风险控制。你会选择？', 'A': '优化投资组合', 'B': '加强投资风险控制', 'Feedback': '你实际将投资损失控制在300万元内，评级为优，超出考核要求'}, {'合并编号': 299, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.736288320068623, '场景': 299, 'Background1': '你是一家装备制造企业的维护主管。', 'Background2': '目标设备保养次数为5次', 'Background3': '你可以选择预测性保养或计划定期保养。你会选择？', 'A': '预测性保养', 'B': '计划定期保养', 'Feedback': '你实际保养了8次，目标完成率为160%，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.740686458656062, '场景': 130, 'Background1': '你是一家科技公司的财务分析师。', 'Background2': '目标将研发支出的投资回报率提升至25%以上。', 'Background3': '你可以选择提高研发项目效率或增加研发项目数量。你会选择？', 'A': '提高研发项目效率', 'B': '增加研发项目数量', 'Feedback': '你实际将研发投资回报率提升至20%，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.747322590821643, '场景': 294, 'Background1': '你是一家制造企业的质量控制主管。', 'Background2': '目标试产品合格率为70%。', 'Background3': '你可以选择加强质检标准或提升生产工艺。你会选择？', 'A': '加强质检标准', 'B': '提升生产工艺', 'Feedback': '你实际达到了40%，目标完成率为57%，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.75002120713321, '场景': 160, 'Background1': '你是一家餐饮集团的供应链经理。', 'Background2': '目标食材成本降低10%。', 'Background3': '你可以选择合同价采购或市场价采购。你会选择？', 'A': '合同价采购', 'B': '市场价采购', 'Feedback': '你实际降低了5%的食材成本，目标完成率为50%，未达考核要求。'}, {'合并编号': 69, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.752902661812601, '场景': 69, 'Background1': '你是一家金融公司的投资经理。', 'Background2': '目标实现投资回报率增长10%。', 'Background3': '你可以选择优化投资组合或增加投资风险。你会选择？', 'A': '优化投资组合', 'B': '增加投资风险', 'Feedback': '你实际实现了15%的投资回报率，评级为优，超出考核要求'}, {'合并编号': 65, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.757793627554224, '场景': 65, 'Background1': '你是一家化妆品公司的研发经理。', 'Background2': '目标开发3款新化妆品。', 'Background3': '你可以选择合作研发或自主研发。你会选择？', 'A': '合作研发', 'B': '自主研发', 'Feedback': '你实际开发了5款新化妆品，评级为优，超出考核要求'}, {'合并编号': 217, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.760843291887429, '场景': 217, 'Background1': '你是一家科技公司产品创新部门主管。', 'Background2': '本季度需要获得项目创新奖励2次。', 'Background3': '你可以选择商业模式创新或产品功能创新。你会选择？', 'A': '商业模式创新', 'B': '产品功能创新', 'Feedback': '你实际获得了3次，目标完成率为150%，超出考核要求。'}, {'合并编号': 39, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.761877345977161, '场景': 39, 'Background1': '你是一家制药公司的内部控制经理。', 'Background2': '目标将药品不良反应事件降低至3起以内。', 'Background3': '你可以选择提升药品质量或加强药品监测。你会选择？', 'A': '提升药品质量', 'B': '加强药品监测', 'Feedback': '你实际将药品不良反应事件降至1起，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.761935059102339, '场景': 80, 'Background1': '你是一家零售企业的店长。', 'Background2': '目标将店铺日均销售额提升至5000元以上。', 'Background3': '你可以选择改善店铺布局或增加促销活动。你会选择？', 'A': '改善店铺布局', 'B': '增加促销活动', 'Feedback': '你实际提升了3000元的日均销售额，评级为差，未达考核要求。'}, {'合并编号': 221, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.767958009766367, '场景': 221, 'Background1': '你是一家科技公司的项目质量经理。', 'Background2': '目标科研项目结项优秀率为50%。', 'Background3': '你可以选择结果导向或过程管控。你会选择？', 'A': '结果导向', 'B': '过程管控', 'Feedback': '你实际的优秀率80%，目标完成率为160%，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.768831656344871, '场景': 252, 'Background1': '你是一家软件开发公司的测试主管。', 'Background2': '目标软件测试覆盖率达到95%。', 'Background3': '你可以选择优化测试流程或增加测试人员。你会选择？', 'A': '优化测试流程', 'B': '增加测试人员', 'Feedback': '你实际达到了90%的软件测试覆盖率，目标完成率为95%，未达考核要求。'}, {'合并编号': 117, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.76937468198847, '场景': 117, 'Background1': '你是一家保险公司的风险评估经理。', 'Background2': '目标将保险赔付率降低至3%以内。', 'Background3': '你可以选择加强风险预防措施或优化风险评估模型。你会选择？', 'A': '加强风险预防措施', 'B': '优化风险评估模型', 'Feedback': '你实际将保险赔付率降至2%，评级为优，超出考核要求'}, {'合并编号': 5, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.77415074422935, '场景': 5, 'Background1': '你是一家保险公司的财务总监。', 'Background2': '目标将保险产品的综合成本率提升至90%以上。', 'Background3': '你可以选择优化风险评估模型或增加保险产品种类。你会选择？', 'A': '优化风险评估模型', 'B': '增加保险产品种类', 'Feedback': '你实际将综合成本率提升至95%，评级为优，超出考核要求'}, {'合并编号': 239, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.689517715257507, '场景': 239, 'Background1': '你是一家旅行社的业务主管。', 'Background2': '目标季度组团人数为500人。', 'Background3': '你可以选择提供旅游套餐优惠或增加旅游线路。你会选择？', 'A': '提供旅游套餐优惠', 'B': '增加旅游线路', 'Feedback': '你实际组团了750人，目标完成率为150%，超出考核要求。'}, {'合并编号': 113, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.7749480435846, '场景': 113, 'Background1': '你是一家制药公司的研究部门负责人。', 'Background2': '目标在12个月内完成新药临床试验。', 'Background3': '你可以选择采用快速审批流程或增加试验基地。你会选择？', 'A': '采用快速审批流程', 'B': '增加试验基地', 'Feedback': '你实际在10个月内完成了新药临床试验，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.779562193334275, '场景': 34, 'Background1': '你是一家金融服务公司的内部控制经理。', 'Background2': '目标将金融诈骗案件控制在5起以内。', 'Background3': '你可以选择提升员工识别能力或加强交易监控。你会选择？', 'A': '提升员工识别能力', 'B': '加强交易监控', 'Feedback': '你实际将金融诈骗案件降至8起，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.78100532457804, '场景': 2, 'Background1': '你是一家餐饮集团的财务总监。', 'Background2': '目标将外卖业务收入增长率提升至20%以上。', 'Background3': '你可以选择优化外卖服务流程或增加外卖平台合作。你会选择？', 'A': '优化外卖服务流程', 'B': '增加外卖平台合作', 'Feedback': '你实际将营业收入增长率提升至15%，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.786314139760346, '场景': 180, 'Background1': '你是一家电商平台的直播运营主管。', 'Background2': '目标平均销售直播观看人数为1000人次/场。', 'Background3': '你可以选择自播自营或达人合作。你会选择？', 'A': '自播自营', 'B': '达人合作', 'Feedback': '你实际达到了400人次/场，目标完成率为40%，未达考核要求。'}, {'合并编号': 251, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.787045822438393, '场景': 251, 'Background1': '你是一家软件公司的开发主管。', 'Background2': '目标开发新功能数为10个。', 'Background3': '你可以选择提高开发效率或增加开发人员。你会选择？', 'A': '提高开发效率', 'B': '增加开发人员', 'Feedback': '你实际开发了15个新功能，目标完成率为150%，超出考核要求。'}, {'合并编号': 181, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.793460701709562, '场景': 181, 'Background1': '你是一家电信公司的网络运营主管。', 'Background2': '目标网络故障率低于0.1%。', 'Background3': '你可以选择加强网络监控或升级网络设备。你会选择？', 'A': '加强网络监控', 'B': '升级网络设备', 'Feedback': '你实际将故障率控制在0.05%，预算差异率为-50%，为有利差异，超出考核要求。'}, {'合并编号': 87, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.794840447255335, '场景': 87, 'Background1': '你是一家航空公司的客户经理。', 'Background2': '目标将客户满意度提升至80%以上。', 'Background3': '你可以选择优化客户反馈系统或增加客户服务培训。你会选择？', 'A': '优化客户反馈系统', 'B': '增加客户服务培训', 'Feedback': '你实际将客户满意度提升至85%，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.802578508989039, '场景': 268, 'Background1': '你是一家物流公司的区域经理。', 'Background2': '目标月度运输量为2000吨。', 'Background3': '你可以选择优化路线规划或增加运输车辆。你会选择？', 'A': '优化路线规划', 'B': '增加运输车辆', 'Feedback': '你实际完成了1000吨，目标完成率为50%，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.805368178561, '场景': 136, 'Background1': '你是一家金融公司的财务分析师。', 'Background2': '目标将贷款利息收入增长率提升至10%以上。', 'Background3': '你可以选择提高贷款利率或扩大贷款规模。你会选择？', 'A': '提高贷款利率', 'B': '扩大贷款规模', 'Feedback': '你实际将利息收入增长率提升至5%，评级为差，未达考核要求。'}, {'合并编号': 275, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.808435551069279, '场景': 275, 'Background1': '你是一家研发中心的职业发展主管。', 'Background2': '目标专业资格证书获取数2个。', 'Background3': '你可以选择国际认证或国内认证。你会选择？', 'A': '国际认证', 'B': '国内认证', 'Feedback': '你实际取得了3个，目标完成率为150%，超出考核要求。'}, {'合并编号': 67, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.814164636886359, '场景': 67, 'Background1': '你是一家化工公司的研发经理。', 'Background2': '目标开发5种新化工产品。', 'Background3': '你可以选择优化研发流程或增加研发投入。你会选择？', 'A': '优化研发流程', 'B': '增加研发投入', 'Feedback': '你实际开发了8种新化工产品，评级为优，超出考核要求'}, {'合并编号': 233, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.814525708936973, '场景': 233, 'Background1': '你是一家零售企业的财务主管。', 'Background2': '目标销售利润率为20%', 'Background3': '你可以选择控制运营成本或提升客单价。你会选择？', 'A': '控制运营成本', 'B': '提升客单价', 'Feedback': '你实际达到了30%，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.815955467184933, '场景': 260, 'Background1': '你是一家生产企业的库存管理主管。', 'Background2': '目标成品库存周转率为60%。', 'Background3': '你可以选择计划生产或即产即销。你会选择？', 'A': '计划生产', 'B': '即产即销', 'Feedback': '你实际达到了30%，预算差异率为-50%，为不利差异，未达考核要求。'}, {'合并编号': 153, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.824491930325577, '场景': 153, 'Background1': '你是一家IT咨询公司的服务主管。', 'Background2': '目标客户服务响应时间不超过2小时。', 'Background3': '你可以选择优化服务流程或增加客服人员。你会选择？', 'A': '优化服务流程', 'B': '增加客服人员', 'Feedback': '你实际将响应时间缩短到了1小时，预算差异率为-50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.826329679548031, '场景': 108, 'Background1': '你是一家建筑公司的项目管理经理。', 'Background2': '目标将项目完成质量提升至90%以上。', 'Background3': '你可以选择采用新技术或增加质量检查频次。你会选择？', 'A': '采用新技术', 'B': '增加质量检查频次', 'Feedback': '你实际实现了85%的项目完成质量，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.827817654655788, '场景': 84, 'Background1': '你是一家电子商务平台的物流主管。', 'Background2': '目标将物流成本降低15%。', 'Background3': '你可以选择采用新技术或优化物流路线。你会选择？', 'A': '采用新技术', 'B': '优化物流路线', 'Feedback': '你实际将物流成本降低了10%，评级为差，未达考核要求。'}, {'合并编号': 13, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.832424346761548, '场景': 13, 'Background1': '你是一家物流公司的财务经理。', 'Background2': '目标将物流服务的净利润率提升至10%以上。', 'Background3': '你可以选择降低运营成本或增加高利润服务项目。你会选择？', 'A': '降低运营成本', 'B': '增加高利润服务项目', 'Feedback': '你实际将净利润率提升至12%，评级为优，超出考核要求'}, {'合并编号': 125, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.835844949072643, '场景': 125, 'Background1': '你是一家电子商务公司的财务主管。', 'Background2': '目标将物流成本占销售额的比例降低至5%以内。', 'Background3': '你可以选择合作第三方物流或自建物流系统。你会选择？', 'A': '合作第三方物流', 'B': '自建物流系统', 'Feedback': '你实际将物流成本比例减少至4%，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.839318971081441, '场景': 148, 'Background1': '你是一家制造企业的财务总监。', 'Background2': '目标将产品直通率提升至95%以上。', 'Background3': '你可以选择提升员工技能或增加质量检测点。你会选择？', 'A': '提升员工技能', 'B': '增加质量检测点', 'Feedback': '你实际将产品直通率提升至90%，评级为差，未达考核要求。'}, {'合并编号': 247, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.841820980540334, '场景': 247, 'Background1': '你是一家农业公司的生产经理。', 'Background2': '目标季度农产品产量为1000吨。', 'Background3': '你可以选择增加劳动力或引进新技术。你会选择？', 'A': '增加劳动力', 'B': '引进新技术', 'Feedback': '你实际完成了1500吨，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.846651518159047, '场景': 150, 'Background1': '你是一家汽车制造公司的供应链经理。', 'Background2': '目标将供应链成本降低至10%以内。', 'Background3': '你可以选择采用集中采购或优化供应商管理。你会选择？', 'A': '采用集中采购', 'B': '优化供应商管理', 'Feedback': '你实际降低了5%的供应链成本，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.848221401585906, '场景': 212, 'Background1': '你是一家精密制造企业的质量经理。', 'Background2': '废品率应低于5%。', 'Background3': '你可以选择检验标准优化或工艺参数控制。你会选择？', 'A': '检验标准优化', 'B': '工艺参数控制', 'Feedback': '你实际达到了8%，预算差异率为60%，为不利差异，未达考核要求'}, {'合并编号': 159, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.849959033861534, '场景': 159, 'Background1': '你是一家餐厅的运营经理。', 'Background2': '目标月度翻台率为15次。', 'Background3': '你可以选择增加用餐时段或缩短用餐时间。你会选择？', 'A': '增加用餐时段', 'B': '缩短用餐时间', 'Feedback': '你实际达到了20次翻台率，目标完成率为133%，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.850474896418154, '场景': 174, 'Background1': '你是一家大型制造企业的采购经理。', 'Background2': '目标新增供应商5家。', 'Background3': '你可以选择海外市场开发或国内市场开发。你会选择？', 'A': '海外市场开发', 'B': '国内市场开发', 'Feedback': '你实际新增了2家，目标完成率为40%，未达考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.853418691333329, '场景': 88, 'Background1': '你是一家教育机构的课程顾问。', 'Background2': '目标将课程报名人数提升至200人以上。', 'Background3': '你可以选择增加课程宣传或提供课程优惠。你会选择？', 'A': '增加课程宣传', 'B': '提供课程优惠', 'Feedback': '你实际提升了150人的课程报名人数，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.854688549188683, '场景': 134, 'Background1': '你是一家零售企业的财务总监。', 'Background2': '目标将店铺的客单价提升至150元以上。', 'Background3': '你可以选择提升商品价格或增加商品种类。你会选择？', 'A': '提升商品价格', 'B': '增加商品种类', 'Feedback': '你实际将客单价提升至120元，评级为差，未达考核要求。'}, {'合并编号': 205, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.857421169156844, '场景': 205, 'Background1': '你是一家建筑公司的项目经理。', 'Background2': '目标项目完成时间为12个月。', 'Background3': '你可以选择优化施工计划或加班赶工。你会选择？', 'A': '优化施工计划', 'B': '加班赶工', 'Feedback': '你实际在10个月内完成了项目，目标完成率为83%，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.858809304439886, '场景': 236, 'Background1': '你是一家零售企业的库存管理主管。', 'Background2': '滞销率应低于15%。', 'Background3': '你可以选择调整采购或促销清仓。你会选择？', 'A': '调整采购', 'B': '促销清仓', 'Feedback': '你实际达到了25%，预算差异率为67%，为不利差异，未达考核要求。'}, {'合并编号': 157, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.860035433281224, '场景': 157, 'Background1': '你是一家保险公司的理赔经理。', 'Background2': '目标季度理赔处理时间不超过30天。', 'Background3': '你可以选择优化理赔流程或增加理赔人员。你会选择？', 'A': '优化理赔流程', 'B': '增加理赔人员', 'Feedback': '你实际将处理时间缩短到了20天，目标完成率为67%，超出考核要求。'}, {'合并编号': 23, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.86819331450692, '场景': 23, 'Background1': '你是一家零售连锁的财务监控负责人。', 'Background2': '目标将收银差错率降低至0.5%以内。', 'Background3': '你可以选择定期进行收银员培训或安装监控摄像头。你会选择？', 'A': '定期进行收银员培训', 'B': '安装监控摄像头', 'Feedback': '你实际将差错率降至0.3%，评级为优，超出考核要求'}, {'合并编号': 15, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.877515530526153, '场景': 15, 'Background1': '你是一家零售企业的财务总监。', 'Background2': '目标将库存周转率提升至10次/年。', 'Background3': '你可以选择优化库存管理或增加促销活动。你会选择？', 'A': '优化库存管理', 'B': '增加促销活动', 'Feedback': '你实际将库存周转率提升至12次/年，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.877640654370029, '场景': 230, 'Background1': '你是一家零售店的库存经理。', 'Background2': '目标季度库存周转率为8次。', 'Background3': '你可以选择优化库存管理或增加促销活动。你会选择？', 'A': '优化库存管理', 'B': '增加促销活动', 'Feedback': '你实际周转了4次库存，预算差异率为-50%，为不利差异，未达考核要求。'}, {'合并编号': 111, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.88094561187738, '场景': 111, 'Background1': '你是一家环保公司的项目经理。', 'Background2': '目标完成10个环保项目。', 'Background3': '你可以选择优化项目管理或增加项目资金。你会选择？', 'A': '优化项目管理', 'B': '增加项目资金', 'Feedback': '你实际完成了15个环保项目，评级为优，超出考核要求'}, {'合并编号': 47, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.882022044176727, '场景': 47, 'Background1': '你是一家服装企业的财务总监。', 'Background2': '目标将库存跌价准备控制在50万元以内。', 'Background3': '你可以选择调整采购策略或加强库存周转管理。你会选择？', 'A': '调整采购策略', 'B': '加强库存周转管理', 'Feedback': '你实际将库存跌价准备控制在30万元内，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.887996037903056, '场景': 300, 'Background1': '你是一家咨询公司的市场拓展经理。', 'Background2': '目标开发新客户100人。', 'Background3': '你可以选择口碑营销或渠道合作。你会选择？', 'A': '口碑营销', 'B': '渠道合作', 'Feedback': '你实际开发了50人，目标完成率为50%，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.888022165471098, '场景': 96, 'Background1': '你是一家软件开发公司的内测专员。', 'Background2': '目标将软件测试覆盖率提升至90%以上。', 'Background3': '你可以选择采用自动化测试或增加测试人员。你会选择？', 'A': '采用自动化测试', 'B': '增加测试人员', 'Feedback': '你实际将软件测试覆盖率提升至85%，评级为差，未达考核要求。'}, {'合并编号': 127, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.891305351374239, '场景': 127, 'Background1': '你是一家化工企业的财务总监。', 'Background2': '目标将能源消耗占总成本比例降低至8%以内。', 'Background3': '你可以选择优化生产流程或引进节能设备。你会选择？', 'A': '优化生产流程', 'B': '引进节能设备', 'Feedback': '你实际将能源消耗成本比例降至6%，评级为优，超出考核要求'}, {'合并编号': 179, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.897798138407644, '场景': 179, 'Background1': '你是一家电商平台的产品经理。', 'Background2': '目标新增用户数为5000人。', 'Background3': '你可以选择优化用户体验或增加广告投放。你会选择？', 'A': '优化用户体验', 'B': '增加广告投放', 'Feedback': '你实际新增了7500个用户，目标完成率为150%，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.778771515891767, '场景': 44, 'Background1': '你是一家连锁超市的库存经理。', 'Background2': '目标将库存周转天数降低至30天以内。', 'Background3': '你可以选择调整采购策略或优化库存管理系统。你会选择？', 'A': '调整采购策略', 'B': '优化库存管理系统', 'Feedback': '你实际降低了库存周转天数至35天，评级为差，未达考核要求。'}, {'合并编号': 185, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.899252361922585, '场景': 185, 'Background1': '你是一家电子制造企业的质量经理。', 'Background2': '目标不良物料下降率为10%。', 'Background3': '你可以选择过程质量管控或源头供应商管控。你会选择？', 'A': '过程质量管控', 'B': '源头供应商管控', 'Feedback': '你实际达到了15%，预算差异率为50%，为有利差异，超出考核要求'}, {'合并编号': 149, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.901748845654359, '场景': 149, 'Background1': '你是一家物流公司的财务经理。', 'Background2': '目标将运输事故率降低至0.5%以内。', 'Background3': '你可以选择更新运输设备或增加安全培训。你会选择？', 'A': '更新运输设备', 'B': '增加安全培训', 'Feedback': '你实际将运输事故率降至0.3%，评级为优，超出考核要求'}, {'合并编号': 151, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.905126716502491, '场景': 151, 'Background1': '你是一家IT安全公司的技术主管。', 'Background2': '目标年度新客户数为200家。', 'Background3': '你可以选择加强销售团队建设或增加研发投入。你会选择？', 'A': '加强销售团队建设', 'B': '增加研发投入', 'Feedback': '你实际获得了300家新客户，目标完成率为150%，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.910717794722353, '场景': 102, 'Background1': '你是一家金融科技公司的数据分析师。', 'Background2': '目标将数据驱动决策的准确性提升至90%以上。', 'Background3': '你可以选择提升团队数据分析能力或增加数据分析工具。你会选择？', 'A': '提升团队数据分析能力', 'B': '增加数据分析工具', 'Feedback': '你你实际将数据驱动决策的准确性提升至85%，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.914943746253691, '场景': 98, 'Background1': '你是一家制造企业的生产经理。', 'Background2': '目标将生产安全性提升至95%以上。', 'Background3': '你可以选择改善生产设备或加强安全培训。你会选择？', 'A': '改善生产设备', 'B': '加强安全培训', 'Feedback': '你实际将生产安全性提升至90%，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.916117740748848, '场景': 276, 'Background1': '你是一家研究院的项目投标主管。', 'Background2': '目标科研项目中标率为60%。', 'Background3': '你可以选择成本优势突破或技术优势突破。你会选择？', 'A': '成本优势突破', 'B': '技术优势突破', 'Feedback': '你实际的中标率30%，目标完成率为50%，未达考核要求。'}, {'合并编号': 131, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.917053881223783, '场景': 131, 'Background1': '你是一家酒店集团的财务总监。', 'Background2': '目标将客房收入占总收入比例提升至60%以上。', 'Background3': '你可以选择提高客房价格或增加客房服务。你会选择？', 'A': '提高客房价格', 'B': '增加客房服务', 'Feedback': '你实际将客房收入比例提升至65%，评级为优，超出考核要求'}, {'合并编号': 255, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.917073959804451, '场景': 255, 'Background1': '你是一家软件开发公司的技术总监。', 'Background2': '目标开发项目数为10个。', 'Background3': '你可以选择提高开发效率或增加研发人员。你会选择？', 'A': '提高开发效率', 'B': '增加研发人员', 'Feedback': '你实际完成了15个项目，目标完成率为150%，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.917767106542069, '场景': 280, 'Background1': '你是一家在线教育平台的运营经理。', 'Background2': '目标季度注册用户数为5000人。', 'Background3': '你可以选择增加课程内容或降低课程价格。你会选择？', 'A': '增加课程内容', 'B': '降低课程价格', 'Feedback': '你实际完成了2500个注册用户，目标完成率为50%，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.918045101856453, '场景': 40, 'Background1': '你是一家科技公司的内部控制经理。', 'Background2': '目标将技术泄露事件控制在3起以内。', 'Background3': '你可以选择提升员工忠诚度或加强技术保密。你会选择？', 'A': '提升员工忠诚度', 'B': '加强技术保密', 'Feedback': '你实际将技术泄露事件降至5起，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.913671258101241, '场景': 232, 'Background1': '你是一家零售连锁企业的销售总监。', 'Background2': '目标销售额为200万。', 'Background3': '你可以选择线下促销或线上促销。你会选择？', 'A': '线下促销', 'B': '线上促销', 'Feedback': '你实际的销售额100万，预算差异率为-50%，为不利差异，未达考核要求。'}, {'合并编号': 267, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.927580499224541, '场景': 267, 'Background1': '你是一家物流公司的仓储主管。', 'Background2': '目标仓储成本降低率为10%。', 'Background3': '你可以选择提高仓储效率或优化仓储布局。你会选择？', 'A': '提高仓储效率', 'B': '优化仓储布局', 'Feedback': '你实际降低了15%的仓储成本，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': 35, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.931003409850887, '场景': 35, 'Background1': '你是一家航空公司的内部控制经理。', 'Background2': '目标将航班延误率降低至2%以内。', 'Background3': '你可以选择提升飞机维护或加强航班调度。你会选择？', 'A': '提升飞机维护', 'B': '加强航班调度', 'Feedback': '你实际将航班延误率降至1%，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.931673711780996, '场景': 70, 'Background1': '你是一家律师事务所的负责人。', 'Background2': '目标缩短案件处理时间至6个月以内。', 'Background3': '你可以选择优化案件分配流程或增加案件处理人员。你会选择？', 'A': '优化案件分配流程', 'B': '增加案件处理人员', 'Feedback': '你实际将案件处理时间缩短至8个月，评级为差，未达考核要求。'}, {'合并编号': 31, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.934469053143436, '场景': 31, 'Background1': '你是一家互联网公司的数据分析师。', 'Background2': '目标将用户留存率提升至90%以上。\t', 'Background3': '你可以选择增强用户画像或优化推荐算法。你会选择？', 'A': '增强用户画像', 'B': '优化推荐算法', 'Feedback': '你实际将用户留存率提升至95%，评级为优，超出考核要求'}, {'合并编号': 171, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.948102255243776, '场景': 171, 'Background1': '你是一家创新企业的投资评估主管。', 'Background2': '目标新产品投资利润率为20%。', 'Background3': '你可以选择降低生产成本或提高产品定价。你会选择？', 'A': '降低生产成本', 'B': '提高产品定价', 'Feedback': '你实际达到了30%，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.927437426562453, '场景': 126, 'Background1': '你是一家制药企业的财务经理。', 'Background2': '目标将研发成本占总成本的比例控制在15%以内。', 'Background3': '你可以选择优化研发流程或增加研发投入。你会选择？', 'A': '优化研发流程', 'B': '增加研发投入', 'Feedback': '你实际将研发成本比例控制在18%，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.956394624202306, '场景': 152, 'Background1': '你是一家IT公司的技术支持经理。', 'Background2': '目标季度解决技术问题数为300个。', 'Background3': '你可以选择提高自助服务效率或增加技术支持人员。你会选择？', 'A': '提高自助服务效率', 'B': '增加技术支持人员', 'Feedback': '你实际解决了150个技术问题，目标完成率为50%，未达考核要求。'}, {'合并编号': 17, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.949781974256569, '场景': 17, 'Background1': '你是一家高科技公司的财务规划师。', 'Background2': '目标将公司市值提升6%。', 'Background3': '你可以选择投资并购或股票回购。你会选择？', 'A': '投资并购', 'B': '股票回购', 'Feedback': '你实际提升了10%的公司市值，评级为优，超出考核要求'}, {'合并编号': 169, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.95168339533595, '场景': 169, 'Background1': '你是一家创新企业的技术评估主管。', 'Background2': '目标研发方案采用率为60%。', 'Background3': '你可以选择提升方案经济性或优化方案可行性。你会选择？', 'A': '提升方案经济性', 'B': '优化方案可行性', 'Feedback': '你实际达到了90%，目标完成率为150%，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.955407906516539, '场景': 278, 'Background1': '你是一家游戏开发公司的项目主管。', 'Background2': '目标游戏开发周期为12个月。', 'Background3': '你可以选择优化开发流程或增加开发人员。你会选择？', 'A': '优化开发流程', 'B': '增加开发人员', 'Feedback': '你实际在15个月内完成了游戏开发，预算差异率为25%，为不利差异，未达考核要求。'}, {'合并编号': 289, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.955579757359178, '场景': 289, 'Background1': '你是一家制造企业的工艺优化经理。', 'Background2': '目标研发创新带来标准工时降低率为10%。', 'Background3': '你可以选择流程再造或自动化改造。你会选择？', 'A': '流程再造', 'B': '自动化改造', 'Feedback': '你实际达到了15%，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.923722878865721, '场景': 4, 'Background1': '你是一家软件开发公司的财务分析师。', 'Background2': '目标将软件订阅服务的收入增长率提升至30%以上。', 'Background3': '你可以选择优化客户服务或增加市场推广投入。你会选择？', 'A': '优化客户服务', 'B': '增加市场推广投入', 'Feedback': '你实际将收入增长率提升至25%，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.956431649584518, '场景': 264, 'Background1': '你是一家时尚服装品牌的设计师。', 'Background2': '目标季度新款服装销售额为500万。', 'Background3': '你可以选择在社交媒体上增加曝光或与名人合作。你会选择？', 'A': '在社交媒体上增加曝光', 'B': '与名人合作', 'Feedback': '你实际完成了250万，预算差异率为-50%，为不利差异，未达考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.956873474670619, '场景': 32, 'Background1': '你是一家制造企业的内部控制经理。', 'Background2': '目标将生产事故率控制在0.5%以内。', 'Background3': '你可以选择提升安全设施或加强安全培训。你会选择？', 'A': '提升安全设施', 'B': '加强安全培训', 'Feedback': '你实际将生产事故率降至0.7%，评级为差，未达考核要求。'}, {'合并编号': 189, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.957578455954057, '场景': 189, 'Background1': '你是一家服务企业的客户关系主管。', 'Background2': '目标客户保有率为60%。', 'Background3': '你可以选择开展会员活动或提升服务质量。你会选择？', 'A': '开展会员活动', 'B': '提升服务质量', 'Feedback': '你实际达到了90%，预算差异率为50%，为有利差异，超出考核要求。'}, {'合并编号': 103, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.960047316641909, '场景': 103, 'Background1': '你是一家太阳能公司的技术主管。', 'Background2': '目标将太阳能板转换效率提升至20%以上。', 'Background3': '你可以选择改进生产工艺或研发新型材料。你会选择？', 'A': '改进生产工艺', 'B': '研发新型材料', 'Feedback': '你实际将转换效率提升至25%，评级为优，超出考核要求'}, {'合并编号': 21, '反馈类型': '相对', '反馈正负': '正', 'List': 1, '伪随机': 0.962797090375788, '场景': 21, 'Background1': '你是一家金融公司的合规经理。', 'Background2': '目标将合规风险事件控制在5起以内。', 'Background3': '你可以选择加强监管报告或提高合规意识。你会选择？', 'A': '加强监管报告', 'B': '提高合规意识', 'Feedback': '你实际将合规风险事件降至2起，评级为优，超出考核要求'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.984574229699822, '场景': 202, 'Background1': '你是一家机械制造企业的成本主管。', 'Background2': '目标原材料成本节约率为20%。', 'Background3': '你可以选择材料利用改善或采购价格谈判。你会选择？', 'A': '材料利用改善', 'B': '采购价格谈判', 'Feedback': '你实际达到了10%，预算差异率为-50%，为不利差异，未达考核要求'}, {'合并编号': 259, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.984471097724649, '场景': 259, 'Background1': '你是一家摄影工作室的老板。', 'Background2': '目标月度拍摄订单数为50单。', 'Background3': '你可以选择增加社交媒体宣传或提供折扣优惠。你会选择？', 'A': '增加社交媒体宣传', 'B': '提供折扣优惠', 'Feedback': '你实际完成了75单，目标完成率为150%，超出考核要求。'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.966171171185205, '场景': 54, 'Background1': '你是一家制造企业的会计经理。', 'Background2': '目标将产品标准成本偏差控制在5%以内。', 'Background3': '你可以选择调整成本核算方法或优化生产流程。你会选择？', 'A': '调整成本核算方法', 'B': '优化生产流程', 'Feedback': '你实际将产品标准成本偏差控制在7%，评级为差，未达考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.973775300924531, '场景': 290, 'Background1': '你是一家制造企业的生产质量主管。', 'Background2': '二等品率应低于9%。', 'Background3': '你可以选择质量管理体系或生产工艺改进。你会选择？', 'A': '质量管理体系', 'B': '生产工艺改进', 'Feedback': '你实际达到了13%，预算差异率为44%，为不利差异，未达考核要求'}, {'合并编号': None, '反馈类型': '相对', '反馈正负': '负', 'List': 1, '伪随机': 0.97441845904718, '场景': 26, 'Background1': '你是一家保险公司的内部控制经理。', 'Background2': '目标将保险欺诈案件控制在5起以内。', 'Background3': '你可以选择提升员工警觉性或加强数据分析。你会选择？', 'A': '提升员工警觉性', 'B': '加强数据分析', 'Feedback': '你实际将欺诈案件降至8起，评级为差，未达考核要求。'}, {'合并编号': 195, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.977903718021245, '场景': 195, 'Background1': '你是一家航空公司的客户服务主管。', 'Background2': '目标客户投诉率低于1%。', 'Background3': '你可以选择加强客户沟通或提升服务质量。你会选择？', 'A': '加强客户沟通', 'B': '提升服务质量', 'Feedback': '你实际将投诉率控制在0.5%，预算差异率为-50%，为有利差异，超出考核要求。'}, {'合并编号': None, '反馈类型': '绝对', '反馈正负': '负', 'List': 1, '伪随机': 0.986697325482817, '场景': 154, 'Background1': '你是一家IT咨询公司的项目经理。', 'Background2': '目标年度客户满意度评分为85分。', 'Background3': '你可以选择优化项目管理流程或增强客户服务培训。你会选择？', 'A': '优化项目管理流程', 'B': '增强客户服务培训', 'Feedback': '你实际达到了70分，预算差异率为-17%，为不利差异，未达考核要求。'}, {'合并编号': 287, '反馈类型': '绝对', '反馈正负': '正', 'List': 1, '伪随机': 0.994104206504481, '场景': 287, 'Background1': '你是一家制造企业的仓储经理。', 'Background2': '目标储存成本节约率为20%。', 'Background3': '你可以选择仓储空间改善或库存水平优化。你会选择？', 'A': '仓储空间改善', 'B': '库存水平优化', 'Feedback': '你实际达到了30%，预算差异率为50%，为有利差异，超出考核要求'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Management-text.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trial" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="fix"/>
+    <Routine name="background"/>
+    <Routine name="background2"/>
+    <Routine name="question"/>
+    <Routine name="feedback"/>
+    <Routine name="y_1"/>
+    <Routine name="y_2"/>
+    <Routine name="y_3"/>
+    <Routine name="y_4"/>
+    <LoopTerminator name="trial"/>
+    <Routine name="final"/>
+  </Flow>
+</PsychoPy2experiment>
